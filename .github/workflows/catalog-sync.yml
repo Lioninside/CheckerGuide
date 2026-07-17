@@ -1,0 +1,33 @@
+name: Catalog Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run catalog:sync
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_CHANNEL_HANDLE: ${{ vars.YOUTUBE_CHANNEL_HANDLE }}
+      - run: npm run catalog:validate
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "chore(catalog): sync checkerwelt catalog"
+          title: "chore(catalog): sync Checkerwelt catalog"
+          body: "Automatischer YouTube-Katalogsync. Bitte needs-review pruefen, falls geaendert."
+          branch: catalog/sync
+          delete-branch: true

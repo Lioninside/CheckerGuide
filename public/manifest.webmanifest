@@ -1,0 +1,9 @@
+{
+  "name": "Checker Guide",
+  "short_name": "Checker Guide",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4eb",
+  "theme_color": "#213547",
+  "lang": "de"
+}

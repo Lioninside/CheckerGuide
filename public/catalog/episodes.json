@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "empty-1",
+  "generatedAt": null,
+  "source": {
+    "kind": "empty",
+    "channelHandle": "@CHECKERWELT"
+  },
+  "topics": [
+    "Abenteuer",
+    "Alltag",
+    "Berufe",
+    "Essen",
+    "Fahrzeuge",
+    "Geschichte",
+    "Gesellschaft",
+    "Gesundheit",
+    "Klima",
+    "Koerper",
+    "Kultur",
+    "Medien",
+    "Natur",
+    "Reisen",
+    "Sport",
+    "Technik",
+    "Tiere",
+    "Umwelt",
+    "Weltraum",
+    "Wissenschaft"
+  ],
+  "checkers": [],
+  "dailyRecommendations": {},
+  "episodes": []
+}

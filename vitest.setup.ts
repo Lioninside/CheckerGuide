@@ -1,0 +1,13 @@
+import "@testing-library/jest-dom/vitest";
+
+Object.defineProperty(window, "matchMedia", {
+  writable: true,
+  value: vi.fn().mockImplementation((query: string) => ({
+    addEventListener: vi.fn(),
+    dispatchEvent: vi.fn(),
+    matches: false,
+    media: query,
+    onchange: null,
+    removeEventListener: vi.fn(),
+  })),
+});
