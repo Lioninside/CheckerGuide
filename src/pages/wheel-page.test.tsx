@@ -11,13 +11,15 @@ describe("WheelPage", () => {
     vi.restoreAllMocks();
   });
 
-  it("zeigt ein Glücksrad-Ergebnis", async () => {
+  it("zeigt ein Ergebnis der Zufallsauswahl", async () => {
     renderWithAppProviders(<WheelPage />);
 
-    await waitFor(() => expect(screen.getByRole("button", { name: "Drehen" })).toBeInTheDocument());
-    await userEvent.click(screen.getByRole("button", { name: "Drehen" }));
+    await waitFor(() =>
+      expect(screen.getByRole("button", { name: "Karte ziehen" })).toBeInTheDocument(),
+    );
+    await userEvent.click(screen.getByRole("button", { name: "Karte ziehen" }));
 
-    expect(await screen.findByText("Ergebnis")).toBeInTheDocument();
+    expect(await screen.findByText("Gezogene Folge")).toBeInTheDocument();
     expect(screen.getByText(/Auf YouTube ansehen/)).toBeInTheDocument();
   });
 });

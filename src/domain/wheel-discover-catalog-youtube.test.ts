@@ -64,6 +64,36 @@ describe("catalog and youtube helpers", () => {
     ).toBe(false);
   });
 
+  it("blockiert Folgen ohne Themen und fehlerhafte Thumbnails", () => {
+    const withoutTopics = { ...sampleEpisodes[0]!, topics: [] };
+    const withBrokenThumbnail = {
+      ...sampleEpisodes[1]!,
+      thumbnail: { url: "", width: 0, height: 270 },
+    };
+
+    const result = validateCatalog({
+      ...sampleCatalog,
+      episodes: [withoutTopics, withBrokenThumbnail],
+    });
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Folge episode-kaese hat keine Themen.");
+    expect(result.errors).toContain("Folge episode-wald hat kein gültiges Thumbnail.");
+    expect(result.errors).toContain("Folge episode-wald hat ungültige Thumbnail-Abmessungen.");
+  });
+
+  it("warnt bei ungültigen Veröffentlichungsdaten", () => {
+    const result = validateCatalog({
+      ...sampleCatalog,
+      episodes: [{ ...sampleEpisodes[0]!, publishedAt: "kein-datum" }],
+    });
+
+    expect(result.ok).toBe(true);
+    expect(result.warnings).toContain(
+      "Folge episode-kaese hat ein ungültiges Veröffentlichungsdatum.",
+    );
+  });
+
   it("blockiert leere Produktionskataloge", () => {
     expect(validateCatalog({ ...sampleCatalog, episodes: [] }, true).ok).toBe(false);
   });

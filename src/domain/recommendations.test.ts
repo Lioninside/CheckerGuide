@@ -35,7 +35,7 @@ describe("recommendations", () => {
   it("liefert diverse Empfehlungen bei wenig Daten", () => {
     const group = getRecommendationGroup(sampleEpisodes, createProfile(), 3);
 
-    expect(group.title).toBe("Zum Entdecken");
+    expect(group.reason).toBe("diverse");
     expect(group.episodes).toHaveLength(3);
   });
 
@@ -47,7 +47,7 @@ describe("recommendations", () => {
 
     const group = getRecommendationGroup(sampleEpisodes, profile, 4);
 
-    expect(group.title).toBe("Fuer dich");
+    expect(group.reason).toBe("personalized");
     expect(group.episodes.map((episode) => episode.id)).not.toContain("episode-kaese");
   });
 

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import type { Episode } from "../domain/catalog";
 import { useProfile } from "../contexts/ProfileContext";
+import { de } from "../i18n/de";
 import { EpisodeActions } from "./EpisodeActions";
 import { StatusBadge } from "./StatusBadge";
 
@@ -17,10 +18,25 @@ export function EpisodeCard({ episode, showActions = true }: EpisodeCardProps) {
 
   return (
     <article className="episode-card">
+      <div className="episode-card-body">
+        <h3>
+          <Link to={`/folge/${episode.id}`}>{episode.title}</Link>
+        </h3>
+        <div className="episode-meta">
+          <StatusBadge>{episode.checker}</StatusBadge>
+          {seen ? <StatusBadge tone="good">{de.actions.seen}</StatusBadge> : null}
+          {bookmarked ? <StatusBadge tone="warning">{de.actions.saved}</StatusBadge> : null}
+        </div>
+        <ul className="tag-list" aria-label={de.common.topics}>
+          {episode.topics.map((topic) => (
+            <li key={topic}>{topic}</li>
+          ))}
+        </ul>
+      </div>
       <Link
         className="thumbnail-link"
         to={`/folge/${episode.id}`}
-        aria-label={`${episode.title} oeffnen`}
+        aria-label={de.actions.openEpisode(episode.title)}
       >
         {episode.thumbnail ? (
           <img
@@ -32,25 +48,14 @@ export function EpisodeCard({ episode, showActions = true }: EpisodeCardProps) {
             decoding="async"
           />
         ) : (
-          <span className="thumbnail-placeholder">Thumbnail nicht verfuegbar</span>
+          <span className="thumbnail-placeholder">{de.common.thumbnailUnavailable}</span>
         )}
       </Link>
-      <div className="episode-card-body">
-        <div className="episode-meta">
-          <StatusBadge>{episode.checker}</StatusBadge>
-          {seen ? <StatusBadge tone="good">Gesehen</StatusBadge> : null}
-          {bookmarked ? <StatusBadge tone="warning">Gemerkt</StatusBadge> : null}
+      {showActions ? (
+        <div className="episode-card-actions">
+          <EpisodeActions episode={episode} compact />
         </div>
-        <h3>
-          <Link to={`/folge/${episode.id}`}>{episode.title}</Link>
-        </h3>
-        <ul className="tag-list" aria-label="Themen">
-          {episode.topics.map((topic) => (
-            <li key={topic}>{topic}</li>
-          ))}
-        </ul>
-        {showActions ? <EpisodeActions episode={episode} compact /> : null}
-      </div>
+      ) : null}
     </article>
   );
 }

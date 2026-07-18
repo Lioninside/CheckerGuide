@@ -3,7 +3,6 @@ import type { Profile } from "./profile";
 import { computeProfileStats } from "./profile";
 
 export interface RecommendationGroup {
-  title: "Fuer dich" | "Zum Entdecken";
   episodes: Episode[];
   reason: "personalized" | "diverse";
 }
@@ -40,7 +39,7 @@ export function getRecommendationGroup(
   );
 
   if (unseen.length === 0) {
-    return { title: "Zum Entdecken", episodes: [], reason: "diverse" };
+    return { episodes: [], reason: "diverse" };
   }
 
   const stats = computeProfileStats(profile, episodes);
@@ -49,7 +48,6 @@ export function getRecommendationGroup(
 
   if (!hasEnoughActivity) {
     return {
-      title: "Zum Entdecken",
       episodes: diverseSelection(unseen, limit),
       reason: "diverse",
     };
@@ -66,7 +64,6 @@ export function getRecommendationGroup(
   });
 
   return {
-    title: "Fuer dich",
     episodes: diversifyRanked(ranked, limit),
     reason: "personalized",
   };

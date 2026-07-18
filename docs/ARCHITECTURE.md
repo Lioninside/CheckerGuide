@@ -2,7 +2,7 @@
 
 ## Modulübersicht
 
-- `src/domain`: reine Logik für Katalog, Profil, Suche, Empfehlungen, Glücksrad, Entdecken und YouTube-Klassifikation.
+- `src/domain`: reine Logik für Katalog, Profil, Suche, Empfehlungen, Zufallsauswahl, Swipen und YouTube-Klassifikation.
 - `src/infrastructure`: Browser- und Datenquellenzugriff.
 - `src/contexts`: React Provider für Katalog und Profil.
 - `src/components`: wiederverwendbare UI-Bausteine.

@@ -2,6 +2,7 @@ import { RotateCcw, X } from "lucide-react";
 import { useId } from "react";
 
 import { useProfile } from "../contexts/ProfileContext";
+import { de } from "../i18n/de";
 
 interface ResetDialogProps {
   open: boolean;
@@ -20,20 +21,20 @@ export function ResetDialog({ open, onClose }: ResetDialogProps) {
     <div className="dialog-backdrop" role="presentation">
       <section className="dialog" role="dialog" aria-modal="true" aria-labelledby={titleId}>
         <div className="dialog-heading">
-          <h2 id={titleId}>Profil zuruecksetzen</h2>
+          <h2 id={titleId}>{de.profile.resetTitle}</h2>
           <button
             className="icon-button"
             type="button"
             onClick={onClose}
-            aria-label="Dialog schliessen"
+            aria-label={de.actions.closeDialog}
           >
             <X aria-hidden="true" size={18} />
           </button>
         </div>
-        <p>Gesehene Folgen, Merkliste und Kennzahlen werden aus diesem Browser entfernt.</p>
+        <p>{de.profile.resetBody}</p>
         <div className="actions">
           <button className="button secondary" type="button" onClick={onClose}>
-            Abbrechen
+            {de.actions.cancel}
           </button>
           <button
             className="button danger"
@@ -44,7 +45,7 @@ export function ResetDialog({ open, onClose }: ResetDialogProps) {
             }}
           >
             <RotateCcw aria-hidden="true" size={18} />
-            Zuruecksetzen
+            {de.actions.reset}
           </button>
         </div>
       </section>

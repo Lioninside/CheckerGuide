@@ -28,7 +28,7 @@ const EXCLUDED_TITLE_PATTERNS = [
 export function parseYoutubeDuration(duration: string): number {
   const match = /^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$/.exec(duration);
   if (!match) {
-    throw new Error(`Ungueltige YouTube-Dauer: ${duration}`);
+    throw new Error(`Ungültige YouTube-Dauer: ${duration}`);
   }
 
   const days = Number(match[1] ?? 0);
@@ -44,11 +44,11 @@ export function classifyYoutubeVideo(input: VideoClassificationInput): VideoClas
   const title = input.title.trim();
 
   if (durationSeconds < 15 * 60) {
-    reasons.push("zu kurz fuer eine regulaere vollstaendige Folge");
+    reasons.push("zu kurz für eine reguläre vollständige Folge");
   }
 
   if (durationSeconds > 35 * 60) {
-    reasons.push("ungewoehnlich lang und reviewpflichtig");
+    reasons.push("ungewöhnlich lang und reviewpflichtig");
   }
 
   for (const pattern of EXCLUDED_TITLE_PATTERNS) {

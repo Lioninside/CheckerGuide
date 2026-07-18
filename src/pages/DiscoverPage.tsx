@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { EmptyState } from "../components/EmptyState";
 import { EpisodeActions } from "../components/EpisodeActions";
@@ -9,6 +9,8 @@ import { useProfile } from "../contexts/ProfileContext";
 import { youtubeWatchUrl } from "../domain/catalog";
 import { getStableDiscoverOrder } from "../domain/discover";
 import { setDiscoverOrder } from "../domain/profile";
+import { useArrowKeyNavigation } from "../hooks/useArrowKeyNavigation";
+import { openExternalUrl } from "../infrastructure/browser";
 import { de } from "../i18n/de";
 
 export default function DiscoverPage() {
@@ -21,6 +23,11 @@ export default function DiscoverPage() {
     () => getStableDiscoverOrder(availableEpisodes, profile, catalog?.catalogVersion ?? "unknown"),
     [availableEpisodes, catalog?.catalogVersion, profile],
   );
+  const moveNext = useCallback(
+    () => setIndex((current) => Math.min(current + 1, orderResult.order.length - 1)),
+    [orderResult.order.length],
+  );
+  const moveBack = useCallback(() => setIndex((current) => Math.max(current - 1, 0)), []);
 
   useEffect(() => {
     const current = profile.discoverOrder;
@@ -36,21 +43,14 @@ export default function DiscoverPage() {
     setIndex((current) => Math.min(current, Math.max(orderResult.order.length - 1, 0)));
   }, [orderResult.order.length]);
 
-  useEffect(() => {
-    const listener = (event: KeyboardEvent) => {
-      if (event.key === "ArrowRight") {
-        setIndex((current) => Math.min(current + 1, orderResult.order.length - 1));
-      }
-      if (event.key === "ArrowLeft") {
-        setIndex((current) => Math.max(current - 1, 0));
-      }
-    };
-    window.addEventListener("keydown", listener);
-    return () => window.removeEventListener("keydown", listener);
-  }, [orderResult.order.length]);
+  useArrowKeyNavigation({
+    enabled: orderResult.order.length > 0,
+    onBack: moveBack,
+    onNext: moveNext,
+  });
 
   if (loading) {
-    return <p className="loading">Katalog wird geladen...</p>;
+    return <p className="loading">{de.loading.catalog}</p>;
   }
 
   if (error) {
@@ -58,28 +58,24 @@ export default function DiscoverPage() {
       <EmptyState
         title={de.catalogLoadError}
         body={error}
-        actionLabel="Erneut versuchen"
+        actionLabel={de.actions.retry}
         onAction={reload}
       />
     );
   }
 
   if (availableEpisodes.length === 0) {
-    return <EmptyState title="Katalog ist noch nicht eingerichtet" body={de.emptyCatalog} />;
+    return <EmptyState title={de.emptyCatalogTitle} body={de.emptyCatalog} />;
   }
 
   if (orderResult.order.length === 0) {
-    return (
-      <EmptyState
-        title="Keine ungesehenen Folgen"
-        body="Alle verfügbaren Folgen sind als gesehen markiert."
-      />
-    );
+    return <EmptyState title={de.discover.noUnseenTitle} body={de.discover.allSeenBody} />;
   }
 
   const episodeId = orderResult.order[index];
   const episode =
     availableEpisodes.find((entry) => entry.id === episodeId) ?? availableEpisodes[0]!;
+  const bookmarked = profile.bookmarkedEpisodeIds.includes(episode.id);
 
   const openYoutube = () => {
     if (dragged.current) {
@@ -87,26 +83,17 @@ export default function DiscoverPage() {
       return;
     }
     recordOpened(episode.id);
-    window.open(youtubeWatchUrl(episode.youtubeId), "_blank", "noopener,noreferrer");
+    openExternalUrl(youtubeWatchUrl(episode.youtubeId));
   };
-
-  const moveNext = () => setIndex((current) => Math.min(current + 1, orderResult.order.length - 1));
-  const moveBack = () => setIndex((current) => Math.max(current - 1, 0));
 
   return (
     <div className="page-stack">
       <section className="discover-stage">
-        <div
+        <h2>{de.discover.title}</h2>
+        <button
           className="discover-card"
-          role="button"
-          tabIndex={0}
+          type="button"
           onClick={openYoutube}
-          onKeyDown={(event) => {
-            if (event.key === "Enter" || event.key === " ") {
-              event.preventDefault();
-              openYoutube();
-            }
-          }}
           onPointerDown={(event) => {
             dragStart.current = { x: event.clientX, y: event.clientY };
             dragged.current = false;
@@ -136,8 +123,20 @@ export default function DiscoverPage() {
             }
             dragStart.current = null;
           }}
-          aria-label={`${episode.title} auf YouTube ansehen`}
+          aria-label={de.actions.viewTitleOnYoutube(episode.title)}
         >
+          <div className="discover-copy">
+            <h3>{episode.title}</h3>
+            <div className="episode-meta">
+              <StatusBadge>{episode.checker}</StatusBadge>
+              {bookmarked ? <StatusBadge tone="warning">{de.actions.saved}</StatusBadge> : null}
+            </div>
+            <ul className="tag-list" aria-label={de.common.topics}>
+              {episode.topics.map((topic) => (
+                <li key={topic}>{topic}</li>
+              ))}
+            </ul>
+          </div>
           {episode.thumbnail ? (
             <img
               alt=""
@@ -148,22 +147,15 @@ export default function DiscoverPage() {
               decoding="async"
             />
           ) : (
-            <span className="thumbnail-placeholder">Thumbnail nicht verfügbar</span>
+            <span className="thumbnail-placeholder">{de.common.thumbnailUnavailable}</span>
           )}
           <div className="discover-copy">
-            <StatusBadge>{episode.checker}</StatusBadge>
-            <h2>{episode.title}</h2>
-            <ul className="tag-list">
-              {episode.topics.map((topic) => (
-                <li key={topic}>{topic}</li>
-              ))}
-            </ul>
             <span className="inline-link">
               <ExternalLink aria-hidden="true" size={18} />
-              Auf YouTube ansehen
+              {de.actions.viewOnYoutube}
             </span>
           </div>
-        </div>
+        </button>
         <div className="discover-controls">
           <button
             className="button secondary"
@@ -172,7 +164,7 @@ export default function DiscoverPage() {
             disabled={index === 0}
           >
             <ArrowLeft aria-hidden="true" size={18} />
-            Zurück
+            {de.actions.back}
           </button>
           <button
             className="button secondary"
@@ -180,14 +172,14 @@ export default function DiscoverPage() {
             onClick={moveNext}
             disabled={index >= orderResult.order.length - 1}
           >
-            Weiter
+            {de.discover.next}
             <ArrowRight aria-hidden="true" size={18} />
           </button>
         </div>
         <div className="actions">
           <EpisodeActions episode={episode} compact />
           <button className="button secondary" type="button" onClick={() => markSeen(episode.id)}>
-            Gesehen
+            {de.actions.seen}
           </button>
         </div>
       </section>

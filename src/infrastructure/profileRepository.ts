@@ -22,7 +22,7 @@ export class LocalProfileRepository implements ProfileRepository {
       return {
         profile: createProfile(),
         status: "created",
-        error: "localStorage ist nicht verfuegbar.",
+        error: "localStorage ist nicht verfügbar.",
       };
     }
 
@@ -31,7 +31,7 @@ export class LocalProfileRepository implements ProfileRepository {
 
   save(profile: Profile): void {
     if (!this.storage) {
-      throw new Error("Export nicht moeglich: localStorage ist nicht verfuegbar.");
+      throw new Error("Export nicht möglich: localStorage ist nicht verfügbar.");
     }
     this.storage.setItem(PROFILE_KEY, serializeProfile(profile));
   }

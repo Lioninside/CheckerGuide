@@ -14,7 +14,7 @@ export function LocalProfileNotice() {
       <ShieldCheck aria-hidden="true" size={22} />
       <p>{de.localNotice}</p>
       <button className="button secondary" type="button" onClick={acknowledgeNotice}>
-        Verstanden
+        {de.actions.understand}
       </button>
     </aside>
   );

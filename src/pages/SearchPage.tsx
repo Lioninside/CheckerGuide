@@ -20,7 +20,7 @@ export default function SearchPage() {
   );
 
   if (loading) {
-    return <p className="loading">Katalog wird geladen...</p>;
+    return <p className="loading">{de.loading.catalog}</p>;
   }
 
   if (error) {
@@ -28,20 +28,20 @@ export default function SearchPage() {
       <EmptyState
         title={de.catalogLoadError}
         body={error}
-        actionLabel="Erneut versuchen"
+        actionLabel={de.actions.retry}
         onAction={reload}
       />
     );
   }
 
   if (!catalog || availableEpisodes.length === 0) {
-    return <EmptyState title="Katalog ist noch nicht eingerichtet" body={de.emptyCatalog} />;
+    return <EmptyState title={de.emptyCatalogTitle} body={de.emptyCatalog} />;
   }
 
   return (
     <div className="page-stack">
       <section>
-        <h2>Suche</h2>
+        <h2>{de.search.title}</h2>
         <FilterBar
           filters={filters}
           checkers={getCheckerOptions(catalog)}
@@ -49,7 +49,7 @@ export default function SearchPage() {
           onChange={setFilters}
         />
         <p className="result-count" aria-live="polite">
-          {result.total} Treffer
+          {de.search.resultCount(result.total)}
         </p>
       </section>
       {result.episodes.length > 0 ? (
@@ -59,7 +59,7 @@ export default function SearchPage() {
           ))}
         </div>
       ) : (
-        <EmptyState title="Keine Suchtreffer" body="Passe Suche oder Filter an." />
+        <EmptyState title={de.search.noResultsTitle} body={de.search.noResultsBody} />
       )}
     </div>
   );

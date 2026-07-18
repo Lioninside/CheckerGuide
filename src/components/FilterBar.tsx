@@ -1,6 +1,7 @@
 import { Search } from "lucide-react";
 
 import type { EpisodeSearchFilters } from "../domain/search";
+import { de } from "../i18n/de";
 
 interface FilterBarProps {
   filters: EpisodeSearchFilters;
@@ -13,22 +14,22 @@ export function FilterBar({ filters, checkers, topics, onChange }: FilterBarProp
   return (
     <form className="filter-bar" role="search" onSubmit={(event) => event.preventDefault()}>
       <label className="search-field">
-        <span>Suche</span>
+        <span>{de.search.title}</span>
         <Search aria-hidden="true" size={18} />
         <input
           value={filters.query}
           onChange={(event) => onChange({ ...filters, query: event.target.value })}
-          placeholder="Titel oder Thema"
+          placeholder={de.search.placeholder}
           type="search"
         />
       </label>
       <label>
-        <span>Checker</span>
+        <span>{de.common.checker}</span>
         <select
           value={filters.checker}
           onChange={(event) => onChange({ ...filters, checker: event.target.value })}
         >
-          <option value="">Alle</option>
+          <option value="">{de.common.all}</option>
           {checkers.map((checker) => (
             <option key={checker} value={checker}>
               {checker}
@@ -37,12 +38,12 @@ export function FilterBar({ filters, checkers, topics, onChange }: FilterBarProp
         </select>
       </label>
       <label>
-        <span>Thema</span>
+        <span>{de.common.topic}</span>
         <select
           value={filters.topic}
           onChange={(event) => onChange({ ...filters, topic: event.target.value })}
         >
-          <option value="">Alle</option>
+          <option value="">{de.common.all}</option>
           {topics.map((topic) => (
             <option key={topic} value={topic}>
               {topic}

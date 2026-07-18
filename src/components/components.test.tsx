@@ -94,7 +94,7 @@ describe("components", () => {
     await userEvent.upload(fileInput as HTMLInputElement, file);
 
     expect(await screen.findByText(/1 gesehene Folgen/)).toBeInTheDocument();
-    await userEvent.click(screen.getByRole("button", { name: /Zusammenfuehren/ }));
+    await userEvent.click(screen.getByRole("button", { name: /Zusammenführen/ }));
     expect(onClose).toHaveBeenCalled();
   });
 
@@ -102,7 +102,7 @@ describe("components", () => {
     const onClose = vi.fn();
     renderWithProfile(<ResetDialog open onClose={onClose} />);
 
-    await userEvent.click(screen.getByRole("button", { name: /Zuruecksetzen/ }));
+    await userEvent.click(screen.getByRole("button", { name: /Zurücksetzen/ }));
     expect(onClose).toHaveBeenCalled();
   });
 });

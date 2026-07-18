@@ -10,6 +10,15 @@ const executablePath =
   (process.platform === "win32" && !process.env.CI
     ? windowsBrowserCandidates.find((candidate) => existsSync(candidate))
     : undefined);
+const webServer =
+  process.env.PLAYWRIGHT_SKIP_WEB_SERVER === "1"
+    ? undefined
+    : {
+        command: "node scripts/e2e-server.mjs",
+        reuseExistingServer: false,
+        timeout: 120_000,
+        url: "http://127.0.0.1:5198",
+      };
 
 export default defineConfig({
   expect: {
@@ -22,12 +31,7 @@ export default defineConfig({
     baseURL: "http://127.0.0.1:5198",
     trace: "on-first-retry",
   },
-  webServer: {
-    command: "npm run dev -- --port 5198 --strictPort",
-    reuseExistingServer: false,
-    timeout: 120_000,
-    url: "http://127.0.0.1:5198",
-  },
+  webServer,
   projects: [
     {
       name: "chromium",

@@ -29,9 +29,23 @@ Test-Fixtures dürfen echte YouTube-IDs nur verwenden, wenn sie aus einer verifi
 
 Playwright prüft Hauptseiten mit Axe-Smoke, Tastaturbedienung, Dialogfokus und `aria-live`.
 
-## Manuelle Smoke-Checkliste
+## Lokale Smoke-Checkliste
 
 - App startet lokal.
-- Katalog-Empty-State ist verständlich.
+- Katalog-Empty-State ist verständlich, falls kein produktiver Katalog vorhanden ist.
 - Profilhinweis kann bestätigt werden.
-- Mit echtem Katalog funktionieren YouTube-Link, Gesehen, Merken, Glücksrad, Entdecken und Suche.
+- Mit echtem Katalog funktionieren YouTube-Link, Gesehen, Merken, Zufallsauswahl, Swipen und Suche.
+
+## Production-Smoke-Checkliste
+
+Nach Upload von `dist/` auf `https://bartlome.com/checkerguide/`:
+
+- `https://bartlome.com/checkerguide/` lädt ohne weiße Seite.
+- Die Startseite zeigt eine tägliche Empfehlung und weitere Folgen.
+- `https://bartlome.com/checkerguide/#/suche` lädt, Filter und Suchfeld reagieren.
+- `https://bartlome.com/checkerguide/#/zufallsauswahl` lädt, der Button `Karte ziehen` zeigt ein Ergebnis.
+- `https://bartlome.com/checkerguide/#/swipen` lädt, Weiter/Zurück und Kartenklick funktionieren.
+- Ein YouTube-Link öffnet extern und es gibt keinen eingebetteten Player.
+- Profilaktionen `Merken`, `Als gesehen markieren`, Export, Import und Reset reagieren lokal im Browser.
+- Nach Neuladen bleiben lokale Profiländerungen im selben Browser erhalten.
+- Es erscheinen keine sichtbaren technischen Fehlermeldungen oder kaputten deutschen Umlaute.

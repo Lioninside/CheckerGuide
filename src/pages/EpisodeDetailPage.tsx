@@ -8,6 +8,7 @@ import { StatusBadge } from "../components/StatusBadge";
 import { useCatalog } from "../contexts/CatalogContext";
 import { useProfile } from "../contexts/ProfileContext";
 import { getSimilarEpisodes } from "../domain/recommendations";
+import { de } from "../i18n/de";
 
 export default function EpisodeDetailPage() {
   const { episodeId } = useParams();
@@ -15,17 +16,12 @@ export default function EpisodeDetailPage() {
   const { profile } = useProfile();
 
   if (loading) {
-    return <p className="loading">Katalog wird geladen...</p>;
+    return <p className="loading">{de.loading.catalog}</p>;
   }
 
   const episode = catalog?.episodes.find((entry) => entry.id === episodeId);
   if (!episode) {
-    return (
-      <EmptyState
-        title="Folge nicht gefunden"
-        body="Diese Folge ist im aktuellen Katalog nicht verfügbar."
-      />
-    );
+    return <EmptyState title={de.episode.notFoundTitle} body={de.episode.notFoundBody} />;
   }
 
   const similar = getSimilarEpisodes(episode, availableEpisodes, profile);
@@ -36,7 +32,7 @@ export default function EpisodeDetailPage() {
     <div className="page-stack">
       <Link className="back-link" to="/suche">
         <ArrowLeft aria-hidden="true" size={18} />
-        Zurück zur Suche
+        {de.actions.backToSearch}
       </Link>
       <article className="detail-layout">
         <div className="detail-media">
@@ -49,17 +45,17 @@ export default function EpisodeDetailPage() {
               decoding="async"
             />
           ) : (
-            <span className="thumbnail-placeholder">Thumbnail nicht verfügbar</span>
+            <span className="thumbnail-placeholder">{de.common.thumbnailUnavailable}</span>
           )}
         </div>
         <div className="detail-copy">
           <div className="episode-meta">
             <StatusBadge>{episode.checker}</StatusBadge>
-            {seen ? <StatusBadge tone="good">Gesehen</StatusBadge> : null}
-            {bookmarked ? <StatusBadge tone="warning">Gemerkt</StatusBadge> : null}
+            {seen ? <StatusBadge tone="good">{de.actions.seen}</StatusBadge> : null}
+            {bookmarked ? <StatusBadge tone="warning">{de.actions.saved}</StatusBadge> : null}
           </div>
           <h2>{episode.title}</h2>
-          <p>{episode.description || "Keine bereinigte Beschreibung im Katalog vorhanden."}</p>
+          <p>{episode.description || de.episode.missingDescription}</p>
           <ul className="tag-list">
             {episode.topics.map((topic) => (
               <li key={topic}>{topic}</li>
@@ -70,7 +66,7 @@ export default function EpisodeDetailPage() {
       </article>
 
       <section>
-        <h2>Ähnliche Folgen</h2>
+        <h2>{de.episode.similarTitle}</h2>
         {similar.length > 0 ? (
           <div className="episode-grid">
             {similar.map((entry) => (
@@ -78,10 +74,7 @@ export default function EpisodeDetailPage() {
             ))}
           </div>
         ) : (
-          <EmptyState
-            title="Keine ähnlichen Folgen"
-            body="Im aktuellen Katalog gibt es keine passende ungesehene Folge."
-          />
+          <EmptyState title={de.episode.similarEmptyTitle} body={de.episode.similarEmptyBody} />
         )}
       </section>
     </div>

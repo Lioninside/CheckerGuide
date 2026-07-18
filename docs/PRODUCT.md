@@ -14,10 +14,10 @@ Checker Guide ist ein inoffizielles Companion-Tool. Es ist keine Mediathek, kein
 
 ## Version-1-Scope
 
-- Heute mit täglicher Empfehlung
-- Lokale Inspiration
-- Glücksrad
-- Entdecken
+- Start mit täglicher Empfehlung
+- "Das könnte dir gefallen" als horizontale Folgeauswahl
+- Zufallsauswahl mit Kartenstapel
+- Swipen
 - Suche und Filter
 - Detailseiten
 - lokales Profil mit Merkliste, Gesehen-Status, Import und Export
@@ -36,12 +36,12 @@ Checker Guide ist ein inoffizielles Companion-Tool. Es ist keine Mediathek, kein
 ## Nutzerwege
 
 - Eine tägliche Empfehlung öffnen.
-- Das Glücksrad drehen und eine ungesehene Folge finden.
-- Im Entdecken-Modus durch ungesehene Folgen gehen.
+- Eine Karte ziehen und eine ungesehene Folge finden.
+- Im Swipen-Modus durch ungesehene Folgen gehen.
 - Nach Titel oder Thema suchen.
 - Folge merken oder als gesehen markieren.
 - Profil exportieren und später importieren.
 
 ## Produktentscheidungen
 
-Das Profil bleibt lokal. Gesehen gewinnt gegen Merkliste: Sobald eine Folge als gesehen markiert wird, wird sie aus der Merkliste entfernt. Das Glücksrad ignoriert Checker-Präferenzen und wählt fair aus dem ungesehenen Pool.
+Das Profil bleibt lokal. Gesehen gewinnt gegen Merkliste: Sobald eine Folge als gesehen markiert wird, wird sie aus der Merkliste entfernt. Die Zufallsauswahl ignoriert Checker-Präferenzen und wählt fair aus dem ungesehenen Pool.

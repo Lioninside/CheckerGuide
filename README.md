@@ -6,14 +6,20 @@ Der Checker Guide ist ein privates Fanprojekt und steht in keiner Verbindung zur
 
 ## Status
 
-Version 1 ist als statische Web-App vorbereitet. Der produktive Katalog ist absichtlich leer, bis ein echter YouTube-Data-API-Sync mit Repository-Secrets ausgeführt wurde. Es wurden keine YouTube-Video-IDs erfunden.
+Version 1 ist als statische Web-App umgesetzt. Der produktive Katalog wird über die YouTube Data API generiert und liegt statisch unter `public/catalog/episodes.json`. API-Secrets bleiben ausschließlich in GitHub Actions oder in der lokalen Shell und werden nicht ins Frontend oder Repository geschrieben.
+
+Die aktuelle öffentliche Testadresse ist:
+
+```text
+https://bartlome.com/checkerguide/
+```
 
 ## Voraussetzungen
 
 - Node.js 24.x
 - npm 11.x
 - Für echten Katalogsync: YouTube Data API Key
-- Für Deployment: FTPS-Zugangsdaten
+- Optional für automatisiertes Deployment: FTPS-Zugangsdaten
 
 ## Installation
 
@@ -44,13 +50,13 @@ npm run check
 npm run build
 ```
 
-`npm run build:production` prüft zusätzlich, dass ein echter, nicht leerer Katalog vorhanden ist. Mit dem initial leeren Katalog muss dieser Befehl fehlschlagen.
+`npm run build:production` prüft zusätzlich, dass ein echter, nicht leerer Katalog vorhanden ist. Mit leerem Katalog muss dieser Befehl fehlschlagen.
 
-## Erster YouTube-Katalogsync
+## YouTube-Katalogsync
 
-1. YouTube Data API aktivieren.
-2. `YOUTUBE_API_KEY` lokal setzen oder als GitHub Secret hinterlegen.
-3. Optional `YOUTUBE_CHANNEL_ID` als GitHub Variable setzen.
+1. YouTube Data API v3 in Google Cloud aktivieren.
+2. `YOUTUBE_API_KEY` lokal setzen oder als GitHub Repository Secret hinterlegen.
+3. `YOUTUBE_CHANNEL_HANDLE` als GitHub Variable setzen, zum Beispiel `@CHECKERWELT`.
 4. Dry Run ausführen:
 
 ```bash
@@ -64,26 +70,32 @@ npm run catalog:sync
 npm run catalog:validate
 ```
 
-Unklare Videos landen in `public/catalog/needs-review.json` und müssen geprüft werden.
+Unklare Videos landen in `public/catalog/needs-review.json` und müssen geprüft werden. Nur echte YouTube-IDs aus dem offiziellen Kanal dürfen in den produktiven Katalog gelangen.
 
 ## GitHub Secrets und Variablen
 
 Secrets:
 
 - `YOUTUBE_API_KEY`
-- `FTP_SERVER`
-- `FTP_USERNAME`
-- `FTP_PASSWORD`
+- `FTP_SERVER` nur für automatisiertes FTP-Deployment
+- `FTP_USERNAME` nur für automatisiertes FTP-Deployment
+- `FTP_PASSWORD` nur für automatisiertes FTP-Deployment
 
 Variables:
 
-- `YOUTUBE_CHANNEL_ID`
 - `YOUTUBE_CHANNEL_HANDLE`
-- `FTP_SERVER_DIR`
+- `YOUTUBE_CHANNEL_ID` optional
+- `FTP_SERVER_DIR` nur für automatisiertes FTP-Deployment
 
 ## Deployment
 
-Das Deployment ist über `.github/workflows/ftp-deploy.yml` vorbereitet und läuft nur manuell. Es führt `npm run check` und `npm run build:production` aus, bevor `dist/` per FTPS hochgeladen wird.
+Manuell reicht:
+
+```bash
+npm run build:production
+```
+
+Danach den Inhalt von `dist/` in den FTP-Zielordner für `https://bartlome.com/checkerguide/` hochladen. FTP-Secrets werden nur benötigt, wenn `.github/workflows/ftp-deploy.yml` das Deployment automatisch ausführen soll.
 
 ## Lokale Profildaten
 

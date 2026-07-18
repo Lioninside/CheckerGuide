@@ -114,7 +114,7 @@ export function validateCatalog(catalog: Catalog, production = false): CatalogVa
     ids.add(episode.id);
 
     if (!isValidYoutubeId(episode.youtubeId)) {
-      errors.push(`Ungueltige YouTube-ID fuer ${episode.id}: ${episode.youtubeId}`);
+      errors.push(`Ungültige YouTube-ID für ${episode.id}: ${episode.youtubeId}`);
     }
 
     if (youtubeIds.has(episode.youtubeId)) {
@@ -130,10 +130,31 @@ export function validateCatalog(catalog: Catalog, production = false): CatalogVa
       errors.push(`Folge ${episode.id} hat keinen Checker.`);
     }
 
-    for (const topic of episode.topics) {
-      if (!topics.has(topic)) {
-        warnings.push(`Folge ${episode.id} verwendet ein nicht registriertes Thema: ${topic}`);
+    if (episode.topics.length === 0) {
+      errors.push(`Folge ${episode.id} hat keine Themen.`);
+    } else {
+      for (const topic of episode.topics) {
+        if (!topics.has(topic)) {
+          warnings.push(`Folge ${episode.id} verwendet ein nicht registriertes Thema: ${topic}`);
+        }
       }
+    }
+
+    if (episode.thumbnail) {
+      if (!episode.thumbnail.url.trim()) {
+        errors.push(`Folge ${episode.id} hat kein gültiges Thumbnail.`);
+      }
+      if (episode.thumbnail.width <= 0 || episode.thumbnail.height <= 0) {
+        errors.push(`Folge ${episode.id} hat ungültige Thumbnail-Abmessungen.`);
+      }
+    }
+
+    if (episode.publishedAt && Number.isNaN(Date.parse(episode.publishedAt))) {
+      warnings.push(`Folge ${episode.id} hat ein ungültiges Veröffentlichungsdatum.`);
+    }
+
+    if (episode.durationSeconds !== undefined && episode.durationSeconds <= 0) {
+      errors.push(`Folge ${episode.id} hat eine ungültige Dauer.`);
     }
   }
 

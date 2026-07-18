@@ -29,7 +29,14 @@ const testCatalog = {
   ],
 };
 
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({ context, page }) => {
+  await context.route("https://www.youtube.com/watch?**", async (route) => {
+    await route.fulfill({
+      contentType: "text/html",
+      body: "<title>YouTube Stub</title><h1>YouTube Stub</h1>",
+    });
+  });
+
   await page.route("**/catalog/episodes.json", async (route) => {
     await route.fulfill({
       contentType: "application/json",
@@ -42,13 +49,15 @@ test.beforeEach(async ({ page }) => {
 test("erster Besuch initialisiert Profil und Hinweis", async ({ page }) => {
   await page.goto("/");
 
-  await expect(page.getByRole("heading", { name: "Tägliche Empfehlung" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Heute empfohlen" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Das könnte dir gefallen" })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Alle Folgen anzeigen/ })).toBeVisible();
   await expect(page.getByText(/Profil bleibt nur in diesem Browser/)).toBeVisible();
   await page.getByRole("button", { name: "Verstanden" }).click();
   await expect(page.getByText(/Profil bleibt nur in diesem Browser/)).toBeHidden();
 });
 
-test("gesehen aktualisiert Profil und entfernt aus Glücksrad", async ({ page }) => {
+test("gesehen aktualisiert Profil und entfernt aus Zufallsauswahl", async ({ page }) => {
   await page.goto("/#/folge/episode-kaese");
   await page
     .getByRole("button", { name: /Als gesehen markieren/ })
@@ -58,11 +67,13 @@ test("gesehen aktualisiert Profil und entfernt aus Glücksrad", async ({ page })
 
   await page.goto("/#/profil");
   await expect(page.getByText("25%")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Gesehene Folgen" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Checker Tobi: Der Käse-Check" })).toBeVisible();
 
-  await page.goto("/#/gluecksrad");
+  await page.goto("/#/zufallsauswahl");
   for (let index = 0; index < 4; index += 1) {
-    await page.getByRole("button", { name: "Drehen", exact: true }).click();
-    await expect(page.getByRole("heading", { name: "Ergebnis" })).toBeVisible();
+    await page.getByRole("button", { name: "Karte ziehen", exact: true }).click();
+    await expect(page.getByRole("heading", { name: "Gezogene Folge" })).toBeVisible();
     await expect(page.getByText("Checker Tobi: Der Käse-Check")).toHaveCount(0);
   }
 
@@ -91,10 +102,10 @@ test("merkliste und gesehen-gewinnt-regel", async ({ page }) => {
   await expect(page.getByText("Keine gemerkten Folgen")).toBeVisible();
 });
 
-test("glücksrad Ergebnis, externer Link und All-seen-Zustand", async ({ page }) => {
-  await page.goto("/#/gluecksrad");
-  await page.getByRole("button", { name: "Drehen", exact: true }).click();
-  await expect(page.getByRole("heading", { name: "Ergebnis" })).toBeVisible();
+test("zufallsauswahl Ergebnis, externer Link und All-seen-Zustand", async ({ page }) => {
+  await page.goto("/#/zufallsauswahl");
+  await page.getByRole("button", { name: "Karte ziehen", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "Gezogene Folge" })).toBeVisible();
   await expect(page.getByRole("link", { name: /Auf YouTube ansehen/ })).toHaveAttribute(
     "href",
     /youtube\.com\/watch\?v=/,
@@ -108,15 +119,16 @@ test("glücksrad Ergebnis, externer Link und All-seen-Zustand", async ({ page })
       .click();
   }
 
-  await page.goto("/#/gluecksrad");
-  await page.getByRole("button", { name: "Drehen", exact: true }).click();
+  await page.goto("/#/zufallsauswahl");
+  await page.getByRole("button", { name: "Karte ziehen", exact: true }).click();
   await expect(
     page.getByRole("heading", { name: "Du hast alle Checker-Folgen entdeckt." }),
   ).toBeVisible();
 });
 
-test("entdecken unterstützt Buttons, Pfeiltasten, Swipe und Klick", async ({ page, context }) => {
-  await page.goto("/#/entdecken");
+test("swipen unterstützt Buttons, Pfeiltasten, Swipe und Klick", async ({ page, context }) => {
+  await page.goto("/#/swipen");
+  await expect(page.getByRole("heading", { name: "Swipen" })).toBeVisible();
   await expect(page.getByRole("button", { name: /Weiter/ })).toBeVisible();
   await page.getByRole("button", { name: /Weiter/ }).click();
   await page.keyboard.press("ArrowLeft");
@@ -152,6 +164,9 @@ test("suche findet Titel, Tags, Checker und Leerzustand", async ({ page }) => {
 
 test("export, importvorschau, ersetzen und ungültige Datei", async ({ page }) => {
   await page.goto("/#/profil");
+  await expect(
+    page.getByText(/Deine Daten werden nur in diesem Browser gespeichert/),
+  ).toBeVisible();
 
   const download = page.waitForEvent("download");
   await page.getByRole("button", { name: /Exportieren/ }).click();
@@ -168,6 +183,7 @@ test("export, importvorschau, ersetzen und ungültige Datei", async ({ page }) =
   await expect(page.getByText(/1 gesehene Folgen/)).toBeVisible();
   await page.getByRole("button", { name: /Ersetzen/ }).click();
   await expect(page.getByText("25%")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Checker Can: Der Zug-Check" })).toBeVisible();
 
   await page.getByRole("button", { name: /Importieren/ }).click();
   await page.setInputFiles('input[type="file"]', {
@@ -175,7 +191,7 @@ test("export, importvorschau, ersetzen und ungültige Datei", async ({ page }) =
     mimeType: "application/json",
     buffer: Buffer.from("{kaputt"),
   });
-  await expect(page.getByText("Importdatei ungueltig.")).toBeVisible();
+  await expect(page.getByText("Importdatei ungültig.")).toBeVisible();
 });
 
 test("responsive, accessibility, eckiges Design und Datenschutz-Smoke", async ({ page }) => {
@@ -197,23 +213,25 @@ test("responsive, accessibility, eckiges Design und Datenschutz-Smoke", async ({
     await expect(page.getByRole("heading", { name: "Checker Guide" })).toBeVisible();
   }
 
-  await page.goto("/#/gluecksrad");
+  await page.goto("/#/zufallsauswahl");
   await page.keyboard.press("Tab");
   await expect(page.locator(":focus")).toBeVisible();
 
-  const accessibilityScanResults = await new AxeBuilder({ page }).exclude(".wheel").analyze();
+  const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
   expect(
     accessibilityScanResults.violations.filter((violation) => violation.impact === "critical"),
   ).toEqual([]);
 
-  const buttonRadius = await page.getByRole("button", { name: "Drehen" }).evaluate((element) => {
-    return getComputedStyle(element).borderRadius;
-  });
-  const wheelRadius = await page.locator(".wheel").evaluate((element) => {
+  const buttonRadius = await page
+    .getByRole("button", { name: "Karte ziehen" })
+    .evaluate((element) => {
+      return getComputedStyle(element).borderRadius;
+    });
+  const stackRadius = await page.locator(".stack-card.front").evaluate((element) => {
     return getComputedStyle(element).borderRadius;
   });
   expect(buttonRadius).toBe("0px");
-  expect(wheelRadius).not.toBe("0px");
+  expect(stackRadius).toBe("0px");
   expect(await page.locator("iframe").count()).toBe(0);
   expect(blockedHosts).toEqual([]);
 });

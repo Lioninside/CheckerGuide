@@ -120,7 +120,7 @@ const nextCatalog = {
 
 if (dryRun) {
   console.log(
-    `Dry run: ${included.length} Folgen wuerden uebernommen, ${needsReview.length} Videos brauchen Review.`,
+    `Dry run: ${included.length} Folgen würden übernommen, ${needsReview.length} Videos brauchen Review.`,
   );
 } else {
   await writeFile(catalogPath, `${JSON.stringify(nextCatalog, null, 2)}\n`, "utf8");
@@ -210,7 +210,7 @@ function chooseThumbnail(thumbnails) {
 function parseDuration(duration) {
   const match = /^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$/.exec(duration);
   if (!match) {
-    throw new Error(`Ungueltige YouTube-Dauer: ${duration}`);
+    throw new Error(`Ungültige YouTube-Dauer: ${duration}`);
   }
   return (
     Number(match[1] ?? 0) * 86400 +

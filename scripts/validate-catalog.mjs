@@ -21,7 +21,7 @@ try {
   }
 
   console.log(
-    `Catalog ok: ${catalog.episodes.length} Folgen, ${availableEpisodes(catalog).length} verfuegbar.`,
+    `Catalog ok: ${catalog.episodes.length} Folgen, ${availableEpisodes(catalog).length} verfügbar.`,
   );
 } catch (error) {
   console.error(error instanceof Error ? error.message : String(error));
@@ -31,6 +31,11 @@ try {
 function validateCatalog(catalog, isProduction) {
   const errors = [];
   const warnings = [];
+  if (!catalog || typeof catalog !== "object" || Array.isArray(catalog)) {
+    errors.push("Katalog muss ein Objekt sein.");
+    return { ok: false, errors, warnings };
+  }
+
   const ids = new Set();
   const youtubeIds = new Set();
   const topics = new Set(catalog.topics ?? []);
@@ -67,7 +72,7 @@ function validateCatalog(catalog, isProduction) {
     }
 
     if (typeof episode.youtubeId !== "string" || !/^[A-Za-z0-9_-]{11}$/.test(episode.youtubeId)) {
-      errors.push(`Ungueltige YouTube-ID fuer ${episode.id ?? "unbekannt"}: ${episode.youtubeId}`);
+      errors.push(`Ungültige YouTube-ID für ${episode.id ?? "unbekannt"}: ${episode.youtubeId}`);
     } else if (youtubeIds.has(episode.youtubeId)) {
       errors.push(`Doppelte YouTube-ID: ${episode.youtubeId}`);
     } else {
@@ -90,6 +95,37 @@ function validateCatalog(catalog, isProduction) {
           warnings.push(`Folge ${episode.id} verwendet ein nicht registriertes Thema: ${topic}`);
         }
       }
+    }
+
+    if (episode.thumbnail !== undefined) {
+      if (!episode.thumbnail || typeof episode.thumbnail !== "object") {
+        errors.push(`Folge ${episode.id ?? "unbekannt"} hat kein gueltiges Thumbnail.`);
+      } else {
+        if (typeof episode.thumbnail.url !== "string" || episode.thumbnail.url.trim() === "") {
+          errors.push(`Folge ${episode.id ?? "unbekannt"} hat kein gueltiges Thumbnail.`);
+        }
+        if (
+          typeof episode.thumbnail.width !== "number" ||
+          typeof episode.thumbnail.height !== "number" ||
+          episode.thumbnail.width <= 0 ||
+          episode.thumbnail.height <= 0
+        ) {
+          errors.push(`Folge ${episode.id ?? "unbekannt"} hat ungültige Thumbnail-Abmessungen.`);
+        }
+      }
+    }
+
+    if (typeof episode.publishedAt === "string" && Number.isNaN(Date.parse(episode.publishedAt))) {
+      warnings.push(
+        `Folge ${episode.id ?? "unbekannt"} hat ein ungültiges Veröffentlichungsdatum.`,
+      );
+    }
+
+    if (
+      episode.durationSeconds !== undefined &&
+      (typeof episode.durationSeconds !== "number" || episode.durationSeconds <= 0)
+    ) {
+      errors.push(`Folge ${episode.id ?? "unbekannt"} hat eine ungültige Dauer.`);
     }
   }
 

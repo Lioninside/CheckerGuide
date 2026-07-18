@@ -3,6 +3,7 @@ import { FileUp, Merge, Replace, X } from "lucide-react";
 
 import { useCatalog } from "../contexts/CatalogContext";
 import { useProfile } from "../contexts/ProfileContext";
+import { de } from "../i18n/de";
 
 interface ImportDialogProps {
   open: boolean;
@@ -28,7 +29,7 @@ export function ImportDialog({ open, onClose }: ImportDialogProps) {
           try {
             return previewImport(rawValue, knownEpisodeIds);
           } catch (error) {
-            return error instanceof Error ? error.message : "Importdatei ungueltig.";
+            return error instanceof Error ? error.message : de.profile.importInvalid;
           }
         })();
 
@@ -36,19 +37,19 @@ export function ImportDialog({ open, onClose }: ImportDialogProps) {
     <div className="dialog-backdrop" role="presentation">
       <section className="dialog" role="dialog" aria-modal="true" aria-labelledby={titleId}>
         <div className="dialog-heading">
-          <h2 id={titleId}>Profil importieren</h2>
+          <h2 id={titleId}>{de.profile.importTitle}</h2>
           <button
             className="icon-button"
             type="button"
             onClick={onClose}
-            aria-label="Dialog schliessen"
+            aria-label={de.actions.closeDialog}
           >
             <X aria-hidden="true" size={18} />
           </button>
         </div>
         <label className="file-picker">
           <FileUp aria-hidden="true" size={18} />
-          JSON-Datei auswaehlen
+          {de.profile.uploadJson}
           <input
             accept="application/json,.json"
             type="file"
@@ -63,20 +64,16 @@ export function ImportDialog({ open, onClose }: ImportDialogProps) {
                   setRawValue(JSON.parse(text) as unknown);
                   setMessage(null);
                 })
-                .catch(() => setMessage("Importdatei ungueltig."));
+                .catch(() => setMessage(de.profile.importInvalid));
             }}
           />
         </label>
         {typeof preview === "string" ? <p className="error-text">{preview}</p> : null}
         {preview && typeof preview !== "string" ? (
           <div className="import-preview">
-            <p>
-              {preview.seenCount} gesehene Folgen, {preview.bookmarkedCount} gemerkte Folgen
-            </p>
+            <p>{de.profile.importPreview(preview.seenCount, preview.bookmarkedCount)}</p>
             {preview.unknownEpisodeIds.length > 0 ? (
-              <p>
-                {preview.unknownEpisodeIds.length} Folgen sind im aktuellen Katalog nicht bekannt.
-              </p>
+              <p>{de.profile.importUnknown(preview.unknownEpisodeIds.length)}</p>
             ) : null}
           </div>
         ) : null}
@@ -94,7 +91,7 @@ export function ImportDialog({ open, onClose }: ImportDialogProps) {
             }}
           >
             <Merge aria-hidden="true" size={18} />
-            Zusammenfuehren
+            {de.actions.merge}
           </button>
           <button
             className="button danger"
@@ -108,7 +105,7 @@ export function ImportDialog({ open, onClose }: ImportDialogProps) {
             }}
           >
             <Replace aria-hidden="true" size={18} />
-            Ersetzen
+            {de.actions.replace}
           </button>
         </div>
       </section>

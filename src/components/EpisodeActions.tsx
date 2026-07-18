@@ -2,6 +2,7 @@ import { Bookmark, BookmarkCheck, Check, ExternalLink, RotateCcw } from "lucide-
 
 import { youtubeWatchUrl, type Episode } from "../domain/catalog";
 import { useProfile } from "../contexts/ProfileContext";
+import { de } from "../i18n/de";
 
 interface EpisodeActionsProps {
   episode: Episode;
@@ -23,7 +24,7 @@ export function EpisodeActions({ episode, compact = false }: EpisodeActionsProps
         onClick={() => recordOpened(episode.id)}
       >
         <ExternalLink aria-hidden="true" size={18} />
-        Auf YouTube ansehen
+        {de.actions.viewOnYoutube}
       </a>
       <button className="button secondary" type="button" onClick={() => toggleSaved(episode.id)}>
         {bookmarked ? (
@@ -31,7 +32,7 @@ export function EpisodeActions({ episode, compact = false }: EpisodeActionsProps
         ) : (
           <Bookmark aria-hidden="true" size={18} />
         )}
-        {bookmarked ? "Gemerkt" : "Merken"}
+        {bookmarked ? de.actions.saved : de.actions.save}
       </button>
       <button
         className="button secondary"
@@ -39,7 +40,7 @@ export function EpisodeActions({ episode, compact = false }: EpisodeActionsProps
         onClick={() => (seen ? unmarkSeen(episode.id) : markSeen(episode.id))}
       >
         {seen ? <RotateCcw aria-hidden="true" size={18} /> : <Check aria-hidden="true" size={18} />}
-        {seen ? "Nicht mehr gesehen" : "Als gesehen markieren"}
+        {seen ? de.actions.unmarkSeen : de.actions.markSeen}
       </button>
     </div>
   );

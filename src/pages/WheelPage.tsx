@@ -1,12 +1,13 @@
-import { Dices, RotateCcw } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { RotateCcw, Shuffle } from "lucide-react";
+import { useMemo, useState } from "react";
 
 import { EmptyState } from "../components/EmptyState";
 import { EpisodeCard } from "../components/EpisodeCard";
 import { useCatalog } from "../contexts/CatalogContext";
 import { useProfile } from "../contexts/ProfileContext";
-import { ALL_SEEN_MESSAGE, pickWheelEpisode } from "../domain/wheel";
 import { setWheelHistory, type Profile } from "../domain/profile";
+import { ALL_SEEN_MESSAGE, pickWheelEpisode } from "../domain/wheel";
+import { usePrefersReducedMotion } from "../hooks/usePrefersReducedMotion";
 import { de } from "../i18n/de";
 
 export default function WheelPage() {
@@ -14,7 +15,7 @@ export default function WheelPage() {
   const { profile, updateProfile } = useProfile();
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [announcement, setAnnouncement] = useState("");
-  const [spinning, setSpinning] = useState(false);
+  const [drawing, setDrawing] = useState(false);
   const reducedMotion = usePrefersReducedMotion();
 
   const selectedEpisode = useMemo(
@@ -23,7 +24,7 @@ export default function WheelPage() {
   );
 
   if (loading) {
-    return <p className="loading">Katalog wird geladen...</p>;
+    return <p className="loading">{de.loading.catalog}</p>;
   }
 
   if (error) {
@@ -31,17 +32,17 @@ export default function WheelPage() {
       <EmptyState
         title={de.catalogLoadError}
         body={error}
-        actionLabel="Erneut versuchen"
+        actionLabel={de.actions.retry}
         onAction={reload}
       />
     );
   }
 
   if (availableEpisodes.length === 0) {
-    return <EmptyState title="Katalog ist noch nicht eingerichtet" body={de.emptyCatalog} />;
+    return <EmptyState title={de.emptyCatalogTitle} body={de.emptyCatalog} />;
   }
 
-  const spin = () => {
+  const drawCard = () => {
     const result = pickWheelEpisode(availableEpisodes, profile);
     if (!result.episode) {
       setSelectedId(null);
@@ -49,34 +50,36 @@ export default function WheelPage() {
       return;
     }
 
-    setSpinning(!reducedMotion);
-    window.setTimeout(
+    setDrawing(!reducedMotion);
+    setTimeout(
       () => {
         setSelectedId(result.episode?.id ?? null);
-        setAnnouncement(`Ausgewählt: ${result.episode?.title ?? ""}`);
+        setAnnouncement(de.random.selected(result.episode?.title ?? ""));
         updateProfile((current: Profile) =>
           setWheelHistory(current, [result.episode!.id, ...current.wheelHistory]),
         );
-        setSpinning(false);
+        setDrawing(false);
       },
-      reducedMotion ? 0 : 520,
+      reducedMotion ? 0 : 360,
     );
   };
 
   return (
     <div className="page-stack">
-      <section className="wheel-layout">
-        <div className={`wheel ${spinning ? "spinning" : ""}`} aria-hidden="true">
-          <span>Checker Guide</span>
+      <section className="random-layout">
+        <div className={`card-stack ${drawing ? "drawing" : ""}`} aria-hidden="true">
+          <span className="stack-card back" />
+          <span className="stack-card middle" />
+          <span className="stack-card front">
+            <Shuffle aria-hidden="true" size={28} />
+          </span>
         </div>
-        <div className="wheel-panel">
-          <h2>Glücksrad</h2>
-          <p className="muted">
-            Das Rad wählt fair aus allen noch nicht gesehenen vollständigen Folgen im Katalog.
-          </p>
-          <button className="button primary big" type="button" onClick={spin}>
-            <Dices aria-hidden="true" size={20} />
-            Drehen
+        <div className="random-panel">
+          <h2>{de.random.title}</h2>
+          <p className="muted">{de.random.description}</p>
+          <button className="button primary big" type="button" onClick={drawCard}>
+            <Shuffle aria-hidden="true" size={20} />
+            {de.actions.drawCard}
           </button>
           <p className="sr-only" aria-live="polite">
             {announcement}
@@ -85,19 +88,16 @@ export default function WheelPage() {
       </section>
 
       {announcement === ALL_SEEN_MESSAGE ? (
-        <EmptyState
-          title={ALL_SEEN_MESSAGE}
-          body="Du kannst im Profil einzelne Folgen wieder als ungesehen markieren."
-        />
+        <EmptyState title={ALL_SEEN_MESSAGE} body={de.random.allSeenBody} />
       ) : null}
 
       {selectedEpisode ? (
         <section>
           <div className="section-heading">
-            <h2>Ergebnis</h2>
-            <button className="button secondary" type="button" onClick={spin}>
+            <h2>{de.random.result}</h2>
+            <button className="button secondary" type="button" onClick={drawCard}>
               <RotateCcw aria-hidden="true" size={18} />
-              Noch einmal drehen
+              {de.actions.drawAgain}
             </button>
           </div>
           <EpisodeCard episode={selectedEpisode} />
@@ -105,18 +105,4 @@ export default function WheelPage() {
       ) : null}
     </div>
   );
-}
-
-function usePrefersReducedMotion() {
-  const [reduced, setReduced] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduced(mediaQuery.matches);
-    const listener = (event: MediaQueryListEvent) => setReduced(event.matches);
-    mediaQuery.addEventListener("change", listener);
-    return () => mediaQuery.removeEventListener("change", listener);
-  }, []);
-
-  return reduced;
 }

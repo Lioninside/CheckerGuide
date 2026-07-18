@@ -100,7 +100,7 @@ img {
 .main-nav {
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .main-nav a,
@@ -178,17 +178,20 @@ h3 {
   background: var(--paper);
   border: 2px solid var(--line);
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto auto;
   min-width: 0;
 }
 
 .thumbnail-link,
 .detail-media {
   background: #dfe7e2;
-  border-bottom: 2px solid var(--line);
   display: grid;
   min-height: 160px;
   place-items: center;
+}
+
+.thumbnail-link {
+  border-top: 2px solid var(--line);
 }
 
 .episode-card img,
@@ -215,6 +218,11 @@ h3 {
 .discover-copy {
   display: grid;
   gap: 0.8rem;
+  padding: 1rem;
+}
+
+.episode-card-actions {
+  border-top: 2px solid var(--line);
   padding: 1rem;
 }
 
@@ -294,6 +302,21 @@ h3 {
   font-weight: 900;
 }
 
+.episode-rail {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: minmax(260px, 320px);
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding-block: 0.25rem 0.8rem;
+  scroll-snap-type: inline proximity;
+}
+
+.episode-rail .episode-card {
+  scroll-snap-align: start;
+}
+
 .empty-state,
 .local-notice,
 .notice-band {
@@ -311,47 +334,59 @@ h3 {
   margin: 0 0 0.6rem;
 }
 
-.wheel-layout {
+.random-layout {
   align-items: center;
   display: grid;
   gap: clamp(1rem, 5vw, 3rem);
   grid-template-columns: minmax(220px, 360px) minmax(0, 1fr);
 }
 
-.wheel {
-  aspect-ratio: 1;
-  background: conic-gradient(
-    from 10deg,
-    var(--red),
-    var(--yellow),
-    var(--teal),
-    var(--blue),
-    var(--red)
-  );
-  border: 4px solid var(--line);
-  border-radius: 50%;
+.card-stack {
+  aspect-ratio: 4 / 3;
   display: grid;
+  min-height: 220px;
   place-items: center;
+  position: relative;
 }
 
-.wheel span {
+.stack-card {
   background: var(--paper);
-  border: 2px solid var(--line);
-  font-weight: 900;
-  padding: 0.7rem 0.9rem;
+  border: 3px solid var(--line);
+  box-shadow: 0.45rem 0.45rem 0 rgb(29 36 40 / 12%);
+  display: grid;
+  height: 72%;
+  place-items: center;
+  position: absolute;
+  width: 66%;
 }
 
-.wheel.spinning {
-  animation: wheel-spin 520ms cubic-bezier(0.2, 0.6, 0.2, 1);
+.stack-card.back {
+  background: #e6f2ef;
+  transform: translate(-1.1rem, 1rem) rotate(-6deg);
 }
 
-@keyframes wheel-spin {
-  to {
-    transform: rotate(720deg);
+.stack-card.middle {
+  background: #fff0b8;
+  transform: translate(0.1rem, 0.25rem) rotate(2deg);
+}
+
+.stack-card.front {
+  background: #ffffff;
+  color: var(--teal);
+  transform: translate(1rem, -0.9rem) rotate(5deg);
+}
+
+.card-stack.drawing .stack-card.front {
+  animation: card-draw 360ms cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+@keyframes card-draw {
+  50% {
+    transform: translate(2.2rem, -2rem) rotate(10deg);
   }
 }
 
-.wheel-panel {
+.random-panel {
   display: grid;
   gap: 1rem;
   justify-items: start;
@@ -367,8 +402,17 @@ h3 {
 .discover-card {
   background: var(--paper);
   border: 2px solid var(--line);
+  color: inherit;
   cursor: pointer;
+  font: inherit;
   overflow: hidden;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.discover-card img {
+  border-block: 2px solid var(--line);
 }
 
 .discover-card:focus-visible,
@@ -475,6 +519,10 @@ select {
   font-weight: 750;
 }
 
+.profile-backup-note p {
+  margin: 0;
+}
+
 .dialog-backdrop {
   background: rgb(29 36 40 / 65%);
   inset: 0;
@@ -565,7 +613,7 @@ select {
   }
 
   .main-nav {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
@@ -573,7 +621,7 @@ select {
   .main-nav,
   .quick-links,
   .filter-bar,
-  .wheel-layout,
+  .random-layout,
   .detail-layout {
     grid-template-columns: 1fr;
   }
