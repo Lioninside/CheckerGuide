@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "empty-1",
-  "generatedAt": null,
+  "catalogVersion": "youtube-2026-07-18T09:22:16.556Z",
+  "generatedAt": "2026-07-18T09:22:16.556Z",
   "source": {
-    "kind": "empty",
-    "channelHandle": "@CHECKERWELT"
+    "kind": "youtube-data-api",
+    "channelHandle": "@CHECKERWELT",
+    "channelId": "UCQtsd17U8NOM1VRI8oxdwiQ"
   },
   "topics": [
     "Abenteuer",
@@ -28,7 +29,3458 @@
     "Weltraum",
     "Wissenschaft"
   ],
-  "checkers": [],
-  "dailyRecommendations": {},
-  "episodes": []
+  "checkers": [
+    "Can",
+    "Julian",
+    "Marina",
+    "Tobi"
+  ],
+  "dailyRecommendations": {
+    "2026-07-18": "youtube-Ajrufd_FWjA"
+  },
+  "episodes": [
+    {
+      "id": "youtube-plpsNidso5I",
+      "youtubeId": "plpsNidso5I",
+      "title": "Der Wasserrettungs-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🚤🌊 Marina ma",
+      "publishedAt": "2026-07-13T13:00:39Z",
+      "durationSeconds": 1457,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/plpsNidso5I/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-XPrALWi8C9M",
+      "youtubeId": "XPrALWi8C9M",
+      "title": "Der Ruder-und-Paddel-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🚣‍♀️Marina ge",
+      "publishedAt": "2026-06-29T13:00:33Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/XPrALWi8C9M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-0hLbrAcn9JQ",
+      "youtubeId": "0hLbrAcn9JQ",
+      "title": "Der Blumen-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🌸 Checkerin M",
+      "publishedAt": "2026-06-08T13:00:36Z",
+      "durationSeconds": 1454,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/0hLbrAcn9JQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-sFaT7qvgaX8",
+      "youtubeId": "sFaT7qvgaX8",
+      "title": "Der Töpfer-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🙌Checker Tobi",
+      "publishedAt": "2026-05-18T13:01:35Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/sFaT7qvgaX8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-C_BX0SSrzYs",
+      "youtubeId": "C_BX0SSrzYs",
+      "title": "Der Spiele-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Marina lernt b",
+      "publishedAt": "2026-05-04T13:00:19Z",
+      "durationSeconds": 1460,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/C_BX0SSrzYs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-8pwO0ujbCDU",
+      "youtubeId": "8pwO0ujbCDU",
+      "title": "Der Zahlen-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Im Zahlen-Chec",
+      "publishedAt": "2026-04-27T13:00:13Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/8pwO0ujbCDU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-bEhkjJitP4A",
+      "youtubeId": "bEhkjJitP4A",
+      "title": "Der Küsten-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🚢🌊Marina mac",
+      "publishedAt": "2026-04-06T13:01:07Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/bEhkjJitP4A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-cJRKrz-2B3k",
+      "youtubeId": "cJRKrz-2B3k",
+      "title": "Der Oster-Check | Reportage für Kinder | Checker Julian | BR",
+      "checker": "Julian",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Julian liebt d",
+      "publishedAt": "2026-04-02T13:01:05Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/cJRKrz-2B3k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-_mT8feZshLA",
+      "youtubeId": "_mT8feZshLA",
+      "title": "Der Güterverkehrs-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🚚🚄 Marina ma",
+      "publishedAt": "2026-03-23T14:00:56Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/_mT8feZshLA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-FK2Lq077wzc",
+      "youtubeId": "FK2Lq077wzc",
+      "title": "Der Dreck-weg-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Im Dreck-weg-C",
+      "publishedAt": "2026-03-02T14:00:20Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/FK2Lq077wzc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-MalZV32Icqo",
+      "youtubeId": "MalZV32Icqo",
+      "title": "Der Friedhof-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Beim Friedhof-",
+      "publishedAt": "2026-02-16T14:00:26Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/MalZV32Icqo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-80paXDmRNLA",
+      "youtubeId": "80paXDmRNLA",
+      "title": "Der Straßenverkehrs-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Fußgänger, Rad",
+      "publishedAt": "2026-02-02T14:00:20Z",
+      "durationSeconds": 1452,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/80paXDmRNLA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-yn2rmtxOSDg",
+      "youtubeId": "yn2rmtxOSDg",
+      "title": "Der 3. Checker-Kinofilm-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Das Making-of ",
+      "publishedAt": "2026-01-12T14:01:50Z",
+      "durationSeconds": 1446,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/yn2rmtxOSDg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-UDZtafkIWNQ",
+      "youtubeId": "UDZtafkIWNQ",
+      "title": "Der Bagger-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Bagger sind to",
+      "publishedAt": "2026-01-05T14:00:55Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/UDZtafkIWNQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-K5mGiIqL56w",
+      "youtubeId": "K5mGiIqL56w",
+      "title": "Der Schlitten-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Heute geht’s f",
+      "publishedAt": "2025-12-29T14:00:27Z",
+      "durationSeconds": 1462,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/K5mGiIqL56w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-7Tu_AAKZxfA",
+      "youtubeId": "7Tu_AAKZxfA",
+      "title": "Der Christbaum-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Was darf an We",
+      "publishedAt": "2025-12-22T14:00:20Z",
+      "durationSeconds": 1454,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/7Tu_AAKZxfA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-kub5a1rOovU",
+      "youtubeId": "kub5a1rOovU",
+      "title": "Der Weihnachts-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Bei Checkerin ",
+      "publishedAt": "2025-12-19T14:01:23Z",
+      "durationSeconds": 1461,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/kub5a1rOovU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-v57MTdC0iqs",
+      "youtubeId": "v57MTdC0iqs",
+      "title": "Der Medikamente-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Wie wirken Tab",
+      "publishedAt": "2025-12-08T14:01:46Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/v57MTdC0iqs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-VkhlcAdHsuo",
+      "youtubeId": "VkhlcAdHsuo",
+      "title": "Der Klo-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Tobi h",
+      "publishedAt": "2025-11-24T14:00:56Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/VkhlcAdHsuo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-cURzcUhCkbA",
+      "youtubeId": "cURzcUhCkbA",
+      "title": "Der Atmungs-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checkerin Mari",
+      "publishedAt": "2025-11-03T14:01:08Z",
+      "durationSeconds": 1441,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/cURzcUhCkbA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-bZdJKvvvTIM",
+      "youtubeId": "bZdJKvvvTIM",
+      "title": "Der Freiwilligen-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Tobi f",
+      "publishedAt": "2025-10-20T13:01:11Z",
+      "durationSeconds": 1447,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/bZdJKvvvTIM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-JbXpx0DjlsM",
+      "youtubeId": "JbXpx0DjlsM",
+      "title": "Der Leichtathletik-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Tobi l",
+      "publishedAt": "2025-09-29T13:00:45Z",
+      "durationSeconds": 1453,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/JbXpx0DjlsM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-ZVCvO45xXNY",
+      "youtubeId": "ZVCvO45xXNY",
+      "title": "Der Rituale-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Marina freut s",
+      "publishedAt": "2025-09-15T13:01:11Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/ZVCvO45xXNY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-PUb7z4-lFlg",
+      "youtubeId": "PUb7z4-lFlg",
+      "title": "Der Lecker-Schmecker-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Tobi w",
+      "publishedAt": "2025-09-05T13:01:00Z",
+      "durationSeconds": 1445,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/PUb7z4-lFlg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-My48dggQQlk",
+      "youtubeId": "My48dggQQlk",
+      "title": "Der Tierpark-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checkerin Mari",
+      "publishedAt": "2025-08-04T13:00:41Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/My48dggQQlk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-2wbrvKpB28E",
+      "youtubeId": "2wbrvKpB28E",
+      "title": "Der Streit-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checkerin Mari",
+      "publishedAt": "2025-07-10T13:00:05Z",
+      "durationSeconds": 1445,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/2wbrvKpB28E/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-7xth_nj7Ziw",
+      "youtubeId": "7xth_nj7Ziw",
+      "title": "Der Käse-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" 🧀 Alles Käse",
+      "publishedAt": "2025-06-24T13:00:20Z",
+      "durationSeconds": 1463,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/7xth_nj7Ziw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-PL1D1OF-JUA",
+      "youtubeId": "PL1D1OF-JUA",
+      "title": "Der Schönheits-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Was ist schön",
+      "publishedAt": "2025-06-09T13:00:40Z",
+      "durationSeconds": 1450,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/PL1D1OF-JUA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-zEpNuxBtygA",
+      "youtubeId": "zEpNuxBtygA",
+      "title": "Der Show-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Checker Tobi ",
+      "publishedAt": "2025-05-26T13:01:55Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/zEpNuxBtygA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-1YDv6dZ96xU",
+      "youtubeId": "1YDv6dZ96xU",
+      "title": "Der Altwerden-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Alle Menschen",
+      "publishedAt": "2025-04-22T13:00:03Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/1YDv6dZ96xU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-WTWF7OHfuLQ",
+      "youtubeId": "WTWF7OHfuLQ",
+      "title": "Der Navigations-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Checkerin Mar",
+      "publishedAt": "2025-04-07T13:00:45Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/WTWF7OHfuLQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-BOSTMpXuies",
+      "youtubeId": "BOSTMpXuies",
+      "title": "Der Bahnhofs-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge",
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" 🚆 Was geht e",
+      "publishedAt": "2025-03-24T14:00:13Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/BOSTMpXuies/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Wx7jkgdtOa4",
+      "youtubeId": "Wx7jkgdtOa4",
+      "title": "Der Karnevals-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" 🎭 Karneval m",
+      "publishedAt": "2025-03-03T09:00:40Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Wx7jkgdtOa4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-3t35dISKHhY",
+      "youtubeId": "3t35dISKHhY",
+      "title": "Der Gehirn-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 🧠💡 Tobi nimmt dich mit auf eine spannende Reise durch das menschliche Gehirn! Er checkt, wie es aufgebaut ist, warum uns manchmal fiese Kopfschmerzen plage",
+      "publishedAt": "2025-02-21T14:00:06Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/3t35dISKHhY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-PwI5BZp26VE",
+      "youtubeId": "PwI5BZp26VE",
+      "title": "Der Tunnel-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Checkerin Mar",
+      "publishedAt": "2025-02-17T14:00:34Z",
+      "durationSeconds": 1455,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/PwI5BZp26VE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-IvI_8lSWuKM",
+      "youtubeId": "IvI_8lSWuKM",
+      "title": "Der Schrott-Check | Information für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" 🚗🔧 Checkeri",
+      "publishedAt": "2025-01-27T14:00:18Z",
+      "durationSeconds": 1457,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/IvI_8lSWuKM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-5sktDBrOAZs",
+      "youtubeId": "5sktDBrOAZs",
+      "title": "Der Ballett-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" 🩰Beim Ballet",
+      "publishedAt": "2025-01-20T14:00:06Z",
+      "durationSeconds": 1454,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/5sktDBrOAZs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-QZEIt9AM-tA",
+      "youtubeId": "QZEIt9AM-tA",
+      "title": "Der Opern-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" 🎶✨ Eine Oper",
+      "publishedAt": "2025-01-13T14:00:29Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/QZEIt9AM-tA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-gpKBEZfDjGk",
+      "youtubeId": "gpKBEZfDjGk",
+      "title": "Der Glas-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Kultur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Marina checkt, wie Glasmacher aus einer glühenden, flüssigen Masse kunstvolle Glaswerke schaffen und was das Material so faszinierend durchsichtig macht. ",
+      "publishedAt": "2024-12-02T14:00:46Z",
+      "durationSeconds": 1465,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/gpKBEZfDjGk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-iCx-fPE9XUI",
+      "youtubeId": "iCx-fPE9XUI",
+      "title": "Der Herz-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Geschichte",
+        "Koerper",
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 In dieser spannenden Episode nimmt euch Marina mit auf eine außergewöhnliche Reise durch ein gigantisches, begehbares Herz im Kindermuseum. Entdeckt gemei",
+      "publishedAt": "2024-11-08T14:00:49Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/iCx-fPE9XUI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-yw7V8CdpBFo",
+      "youtubeId": "yw7V8CdpBFo",
+      "title": "Der Museums-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Geschichte"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Marina darf einen spannenden Blick hinter die Kulissen von Museen werfen. Sie hilft mit, wenn ein sehr teures und berühmtes Bild geliefert wird. Außerdem ",
+      "publishedAt": "2024-10-14T13:01:11Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/yw7V8CdpBFo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-HCUVpE7zXOs",
+      "youtubeId": "HCUVpE7zXOs",
+      "title": "Der Obst-und-Gemüse-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Essen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Am Bodensee erkundet Checkerin Marina Gemüse-Gewächshäuser und eine Apfelplantage. Und das Beste: Sie macht bei einer verrückten Kürbis-Regatta mit! * Die",
+      "publishedAt": "2024-09-20T13:00:24Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/HCUVpE7zXOs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-3O6reChBx-4",
+      "youtubeId": "3O6reChBx-4",
+      "title": "Der Schul-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Alltag",
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉Tobi besucht eine Grundschule! 🎒✨ Dort darf er einen Blick ins Schulleben werfen und erlebt hautnah den allerersten Schultag mit. Außerdem entdeckt er spa",
+      "publishedAt": "2024-09-18T14:15:07Z",
+      "durationSeconds": 1465,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/3O6reChBx-4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-BBqFyoLRZc8",
+      "youtubeId": "BBqFyoLRZc8",
+      "title": "Der Sonnen-Check | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos zu Sommer, Sonne, Sonnenschein findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/sonnen-check?=vd Ohne die Sonne wäre Leben auf unserem Planeten nicht möglich. Tobi checkt, warum die Sonne scheint und wie wir sie zur Str",
+      "publishedAt": "2024-07-01T13:00:06Z",
+      "durationSeconds": 1435,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/BBqFyoLRZc8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-0txX5uvUL_U",
+      "youtubeId": "0txX5uvUL_U",
+      "title": "Der Rollstuhl-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Alltag"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 In dieser Folge trifft Checkerin Marina zwei supercoole Rollstuhlfahrer. Das wird spannend, denn - sie zeigen Marina, wie ihr Alltag im Rollstuhl aussieht",
+      "publishedAt": "2024-05-27T13:00:06Z",
+      "durationSeconds": 1465,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/0txX5uvUL_U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-4XDTcvCxRPo",
+      "youtubeId": "4XDTcvCxRPo",
+      "title": "Der Europa-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Europa ist ein riesiger Ort auf der Erde, genauso wie dein Land ein Teil davon ist. Aber wer gehört alles zu Europa? Was haben alle Menschen hier gemeinsa",
+      "publishedAt": "2024-05-13T14:01:43Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/4XDTcvCxRPo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-IRBDmnFonPE",
+      "youtubeId": "IRBDmnFonPE",
+      "title": "Der Regen-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉Marina checkt, wie der für uns und unseren Planeten überlebenswichtige Regen entsteht und wie die schönen bunten Farben in den Regenbogen kommen. * Die Kom",
+      "publishedAt": "2024-04-02T12:00:25Z",
+      "durationSeconds": 1457,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/IRBDmnFonPE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-01DeJ6ORIx0",
+      "youtubeId": "01DeJ6ORIx0",
+      "title": "Der Lawinen-Check | Reortage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Checkerin Marina ist in den verschneiten Alpen unterwegs. Sie checkt, wie Lawinen entstehen und wie man Verschüttete findet. Mit einem Lawinenhunde-Rettun",
+      "publishedAt": "2024-03-18T14:00:06Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/01DeJ6ORIx0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-R6bVRB5zoT4",
+      "youtubeId": "R6bVRB5zoT4",
+      "title": "Der Schokoladen-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Essen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉Schokolade gehört zu den beliebtesten Süßigkeiten weltweit. Marina checkt, wie aus den harten und bitteren Bohnen der Kakaofrucht Schokolade wird und wie d",
+      "publishedAt": "2024-02-26T14:00:08Z",
+      "durationSeconds": 1449,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/R6bVRB5zoT4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-fAbUTnKCG-0",
+      "youtubeId": "fAbUTnKCG-0",
+      "title": "Der Verwandlungs-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Marina checkt verschiedene Arten von Verwandlung. Sie trifft eine Magier-Familie und darf sich bei einem Filmdreh in eine Zofe verwandeln. Klick dich rein",
+      "publishedAt": "2023-12-18T14:00:10Z",
+      "durationSeconds": 1458,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/fAbUTnKCG-0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-ztEcoYMJk2E",
+      "youtubeId": "ztEcoYMJk2E",
+      "title": "Der Astronautinnen- und Astronauten-Check | Reportage für Kinder | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checkerin Marina meistert ein echtes Astronautinnen-Training und checkt, wie sich das Leben im Weltraum anfühlt. *Die Kommentare sind zum Schutz von Minde",
+      "publishedAt": "2023-11-08T14:00:46Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/ztEcoYMJk2E/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-4keS4prD-kA",
+      "youtubeId": "4keS4prD-kA",
+      "title": "Der Feuerwehr-Check | Checkerin Marina",
+      "checker": "Marina",
+      "topics": [
+        "Berufe"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checker-welt-feuerwehr-check-vd 👍 Checkerin Marina erlebt einen aufregenden Tag bei der Feuerwehr. Sie löscht selbst einen Brand und bei einer Großübung der Feuerwehr wi",
+      "publishedAt": "2023-11-06T14:00:10Z",
+      "durationSeconds": 1451,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/4keS4prD-kA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-4klC3ktOLVs",
+      "youtubeId": "4klC3ktOLVs",
+      "title": "Der Badesee-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Es ist Sommer! Klar, dass Tobi da nichts mehr in seiner Checker-Bude hält. Badehose an und ab ins Wasser! Allein in Deutschland gibt es weit mehr als 10.0",
+      "publishedAt": "2023-08-10T07:00:02Z",
+      "durationSeconds": 1446,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/4klC3ktOLVs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-ViCVa5MGaqI",
+      "youtubeId": "ViCVa5MGaqI",
+      "title": "Der Brot-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Essen",
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi checkt alles, vom Korn bis zum Brot, aber auch warum man Brezen in eine giftige Lauge taucht und wieso Brot ohne Hefe flach bleibt. * Die Kom",
+      "publishedAt": "2023-07-20T16:00:32Z",
+      "durationSeconds": 1440,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/ViCVa5MGaqI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-fjvWutEOks4",
+      "youtubeId": "fjvWutEOks4",
+      "title": "Der Insel-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Griechenland hat über 3.000 Inseln. Eine davon ist die Vulkaninsel Nisyros. Tobi lernt hier, wie Inseln entstehen, warum der Vulkan pupst, wie das Leben a",
+      "publishedAt": "2023-06-19T13:30:07Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/fjvWutEOks4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-WmTY-tUEA_A",
+      "youtubeId": "WmTY-tUEA_A",
+      "title": "Der Alte-Griechen-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍Checker Tobi möchte alles über das antike Griechenland aussah, was die griechische Mythologie erzählt und wer im alten Griechenland der Chef-Gott war. * Di",
+      "publishedAt": "2023-06-09T08:30:09Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/WmTY-tUEA_A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-N9L75KJIktk",
+      "youtubeId": "N9L75KJIktk",
+      "title": "Der Augen-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt wie unser Auge aufgebaut ist und wie das Sehen eigentlich funktioniert: Das Wichtigste, was wir dafür brauchen, ist Licht. 🎧 Checker Tobi gib",
+      "publishedAt": "2023-06-06T16:00:21Z",
+      "durationSeconds": 1459,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/N9L75KJIktk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-nRR7ApMei1I",
+      "youtubeId": "nRR7ApMei1I",
+      "title": "Der Motorrad-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Mehr als vier Millionen Menschen in Deutschland fahren Motorrad. Checker Julian ist nicht unter ihnen, würde aber gerne auch ein Motorrad fahren. Was er d",
+      "publishedAt": "2023-05-26T16:00:37Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/nRR7ApMei1I/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-UoiuP91FizA",
+      "youtubeId": "UoiuP91FizA",
+      "title": "Der Blitz-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Wenn es richti",
+      "publishedAt": "2023-05-24T16:00:28Z",
+      "durationSeconds": 1446,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/UoiuP91FizA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-iO76qHaOHcY",
+      "youtubeId": "iO76qHaOHcY",
+      "title": "Der Griechenland-Check  | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍Checker Tobi begibt sich auf eine spannende Reise durch Griechenland. Er lernt die griechische Sprache kennen, ist bei der Olivenernte dabei und besucht na",
+      "publishedAt": "2023-05-22T13:30:10Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/iO76qHaOHcY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-nfrD3kC74Ms",
+      "youtubeId": "nfrD3kC74Ms",
+      "title": "Der Animations-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Technik"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍In dieser Reportage für Kinder checkt Tobi heute die Unterschiede zwischen Zeichentrick und Computer-Animation und er will herausfinden, wie man Computerfi",
+      "publishedAt": "2023-05-18T13:30:21Z",
+      "durationSeconds": 1462,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/nfrD3kC74Ms/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-TI5wLCy6ziQ",
+      "youtubeId": "TI5wLCy6ziQ",
+      "title": "Der Segel-Check  | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt heute, wie man ein Segelschiff steuert, lässt sich die wichtigsten Knoten-Tricks beibringen und findet raus, seit wann es Segelboote gibt. Das",
+      "publishedAt": "2023-05-12T14:00:26Z",
+      "durationSeconds": 1436,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/TI5wLCy6ziQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-lF9RFcKiSCs",
+      "youtubeId": "lF9RFcKiSCs",
+      "title": "Der Plastik-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Natur",
+        "Umwelt"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt heute, wie Plastik entsteht, und warum es für die Natur schädlich sein kann. Dafür geht er direkt an die Quelle: zu einer Erdölbohrstation. De",
+      "publishedAt": "2023-05-10T14:00:25Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/lF9RFcKiSCs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-NIxqV3yAUQE",
+      "youtubeId": "NIxqV3yAUQE",
+      "title": "Der Tanz-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Geschichte"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Julian erfährt, wie man beim Tanzen mit seinem Körper Gefühle und Geschichten sichtbar machen kann, lernt eine Hip-Hop-Choreographie, darf mit einer lässi",
+      "publishedAt": "2023-05-08T13:30:10Z",
+      "durationSeconds": 1460,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/NIxqV3yAUQE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-9UepGxay-j4",
+      "youtubeId": "9UepGxay-j4",
+      "title": "Der Familien-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Im Familien-Check lernt Checker Tobi eine Großfamilie, eine Patchworkfamilie und eine Regenbogenfamilie kennen. Und wir lernen seine Familie kennen! * Die",
+      "publishedAt": "2023-05-05T13:00:05Z",
+      "durationSeconds": 1455,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/9UepGxay-j4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-XMrP82S-3cU",
+      "youtubeId": "XMrP82S-3cU",
+      "title": "Der Rangerinnen-und-Ranger-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Natur",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Rangerinnen und Ranger kümmern sich im Nationalpark um Natur und Tiere. Checker Julian ist mit ihnen unterwegs und lernt ihre verschiedenen Aufgaben kenne",
+      "publishedAt": "2023-04-26T13:30:07Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/XMrP82S-3cU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-ex4iNaoZi5A",
+      "youtubeId": "ex4iNaoZi5A",
+      "title": "Der Raumfahrt-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Technik",
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Ob Checker Tobi weltraumtauglich ist, checken die Techniker im Zentrum der Deutschen Luft- und Raumfahrt. 🎧 Checker Tobi gibt es jetzt auch zum Hören. De",
+      "publishedAt": "2023-04-14T16:00:26Z",
+      "durationSeconds": 1448,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/ex4iNaoZi5A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-cB0jZoWL1M0",
+      "youtubeId": "cB0jZoWL1M0",
+      "title": "Der Allergie-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Julian checkt, was bei einer Allergie im Körper passiert und wie man sie loswerden kann. Außerdem erfährt er, wie Hunde Menschen mit Allergien beschützen.",
+      "publishedAt": "2023-04-03T13:30:09Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/cB0jZoWL1M0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-A8yYJ6pHvSI",
+      "youtubeId": "A8yYJ6pHvSI",
+      "title": "Der Ekel - Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Ekeln kann man sich vor ziemlich vielen Sachen: vor Stinkesocken, vergammelten Lebensmitteln oder schleimigen Tierchen! 🎧 Checker Tobi gibt es jetzt auch",
+      "publishedAt": "2023-03-17T17:00:08Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/A8yYJ6pHvSI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-U-5PR9axS18",
+      "youtubeId": "U-5PR9axS18",
+      "title": "Der Ski-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi steht das erste Mal auf Skiern - eine wackelige Angelegenheit und Stürze sind vorprogrammiert. 🎧 Checker Tobi gibt es jetzt auch zum Hören. ",
+      "publishedAt": "2023-03-11T17:00:28Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/U-5PR9axS18/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-wdHtPWwVTVQ",
+      "youtubeId": "wdHtPWwVTVQ",
+      "title": "Der Klebstoff-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Klebstoff kennt jeder - es gibt ihn zum Beispiel für‘s Basteln, flüssig oder als Klebestift. Klebstoffe sind heute super wichtig. Sogar Autos und Flugzeug",
+      "publishedAt": "2023-03-01T17:00:43Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/wdHtPWwVTVQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-AvS2Qk5oRqw",
+      "youtubeId": "AvS2Qk5oRqw",
+      "title": "Der U-Bahn-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Für Tobi geht ein Kindheitstraum in Erfüllung: er darf selber U-Bahn fahren! Fahrlehrer Christian hilft ihm und passt natürlich auf, dass Tobi alles richt",
+      "publishedAt": "2023-02-08T17:00:11Z",
+      "durationSeconds": 1472,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/AvS2Qk5oRqw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-zuRzbOlyQe8",
+      "youtubeId": "zuRzbOlyQe8",
+      "title": "Der Stunt-Check | Reportage für Kinder | Checker Can in Action",
+      "checker": "Can",
+      "topics": [
+        "Fahrzeuge",
+        "Medien"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Sie sind die unsichtbaren Helden in Film und Fernsehen: Stuntmänner und -frauen springen von Häusern, überschlagen sich mit dem Auto und können sich richt",
+      "publishedAt": "2023-01-27T17:00:46Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/zuRzbOlyQe8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-pREw17MO3ws",
+      "youtubeId": "pREw17MO3ws",
+      "title": "Der Burgen-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Geschichte"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Julian ist auf einer mittelalterlichen Burg unterwegs. Er ist einem Burggespenst auf der Spur und wird sogar zum Ritter geschlagen. Außerdem finde",
+      "publishedAt": "2022-12-26T17:00:34Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/pREw17MO3ws/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-GxdBndjWVHg",
+      "youtubeId": "GxdBndjWVHg",
+      "title": "Der Eissport-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Kultur",
+        "Sport",
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi wagt sich aufs Eis: mit den Deutschen Meistern im Eiskunstlauf, bei einem Wettlauf mit einem Profi und mit einem Eiskletterer auf einen Gletscher. *L",
+      "publishedAt": "2022-12-16T17:00:08Z",
+      "durationSeconds": 1452,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/GxdBndjWVHg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube--lhQJ2Clsh0",
+      "youtubeId": "-lhQJ2Clsh0",
+      "title": "Der Weltraum-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Technik",
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Der Weltraum – gigantisch groß! Mit Teleskopen, Raumstationen, Satelliten und Weltraumrobotern versuchen wir Menschen, unendlichen Weiten und außerirdisch",
+      "publishedAt": "2022-11-24T17:00:00Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/-lhQJ2Clsh0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-V1UmuHo-jB0",
+      "youtubeId": "V1UmuHo-jB0",
+      "title": "Der Transport-Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 🚛✈️ Wie kommt eigentlich alles dahin, wo es gebraucht wird? Ohne Transport läuft auf der Welt fast gar nichts – täglich werden Millionen Tonnen Waren über S",
+      "publishedAt": "2022-11-20T17:00:15Z",
+      "durationSeconds": 1461,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/V1UmuHo-jB0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-xA2L0IsC940",
+      "youtubeId": "xA2L0IsC940",
+      "title": "Der Leben- und Sterben-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi ist traurig: Sein Hamster Haselnuss ist gestorben.Tobi beschließt, Haselnuss im Wald zu begraben. \"Tschüss, Haselnuss!\" Der Abschied ist schw",
+      "publishedAt": "2022-10-29T16:00:29Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/xA2L0IsC940/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-JDReVP-TyY4",
+      "youtubeId": "JDReVP-TyY4",
+      "title": "Der Umzugs-Check | Reportagen für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge",
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi ist bei eine Familie mit vier Kindern als Umzugshelfer eingespannt. Da gibt es ganz schön viele Kisten zu packen! *Leider sind die Kommentare",
+      "publishedAt": "2022-10-24T13:30:09Z",
+      "durationSeconds": 1451,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/JDReVP-TyY4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-BAdn-OYVhW8",
+      "youtubeId": "BAdn-OYVhW8",
+      "title": "Der Fortbewegung-der-Zukunft-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Alltag",
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Mit dem Flugtaxi zur Schule? Sekundenschnell von A nach B? Selbstfahrende Fahrzeuge? Checker Julian checkt, wie unsere Fortbewegung in der Zukunft aussehe",
+      "publishedAt": "2022-09-26T13:30:12Z",
+      "durationSeconds": 1443,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/BAdn-OYVhW8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-L3p27UDqhdg",
+      "youtubeId": "L3p27UDqhdg",
+      "title": "Der Bücher-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Geschichte"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi findet heraus, wie ein Buch entsteht und wie eine spannenden Geschichte zu einem Buch werden kann. *Leider sind die Kommentare zum Schutz von",
+      "publishedAt": "2022-06-20T13:45:29Z",
+      "durationSeconds": 1450,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/L3p27UDqhdg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Wv4X7YRaoh0",
+      "youtubeId": "Wv4X7YRaoh0",
+      "title": "Der Brücken-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Kultur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Brücken sind wahre Meisterwerke der Baukunst. Viele sind zu weltberühmten Wahrzeichen geworden, etwa die Rialto-Brücke in Venedig oder die Golden Gate Bri",
+      "publishedAt": "2022-05-30T13:00:15Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Wv4X7YRaoh0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-32J7IQV6teE",
+      "youtubeId": "32J7IQV6teE",
+      "title": "Der Stoffe-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Aus welchem Stoff werden Fallschirme hergestellt oder Bettwäsche, Kleidung, Zelte und Schiffssegel? Checker Tobi checkt das. *Leider sind die Kommentare z",
+      "publishedAt": "2022-03-14T13:30:13Z",
+      "durationSeconds": 1456,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/32J7IQV6teE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-S1Cn6mXpuNU",
+      "youtubeId": "S1Cn6mXpuNU",
+      "title": "Der Sport mit Handicap-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Spitzensportler müssen viel trainieren und sehr ehrgeizig sein, um bei Wettbewerben zu gewinnen. Bei den Sportlern, die Tobi trifft, ist das ganz genauso ",
+      "publishedAt": "2022-03-03T15:00:39Z",
+      "durationSeconds": 1441,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/S1Cn6mXpuNU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube--TrjkSxWL-g",
+      "youtubeId": "-TrjkSxWL-g",
+      "title": "Der Wolken-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Klima"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Aus was bestehen Wolken, warum sehen sie unterschiedlich aus und welches Wetter bringen sie mit? Das checkt Checker Tobi! *Leider sind die Kommentare zum ",
+      "publishedAt": "2022-02-28T14:30:13Z",
+      "durationSeconds": 1462,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/-TrjkSxWL-g/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-i8V-ot7hVUI",
+      "youtubeId": "i8V-ot7hVUI",
+      "title": "Der Flugzeug-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Alle anschnallen – Hier kommt der Flugzeug-Check! ✈️ Checker Julian checkt heute alles rund um's Flugzeug. Er lernt er wie eine Evakuierung funktioniert, ",
+      "publishedAt": "2022-02-16T16:00:30Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/i8V-ot7hVUI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-mBEot3SL7Ho",
+      "youtubeId": "mBEot3SL7Ho",
+      "title": "Der Wikinger-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Reisen",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Vor ungefähr 1000 Jahren lebten die Wikinger. In Haithabu, einer ehemaligen Wikinger-Siedlung im Norden Deutschlands, macht sich Julian auf ihre Spur und ",
+      "publishedAt": "2022-02-14T14:30:13Z",
+      "durationSeconds": 1457,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/mBEot3SL7Ho/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-kat1F8dMcjs",
+      "youtubeId": "kat1F8dMcjs",
+      "title": "Der Zahn-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt wie unsere Zähne aufgebaut sind, warum sie weh tun können und wie man genau das verhindert. Und er hat sogar selbst einen Termin beim Kieferor",
+      "publishedAt": "2022-01-10T14:30:11Z",
+      "durationSeconds": 1463,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/kat1F8dMcjs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-aeQ-8778FqA",
+      "youtubeId": "aeQ-8778FqA",
+      "title": "Der Kunst-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Kultur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Was ist Kunst? Und kann jeder ein so begnadeter Künstler sein wie Checker Tobi? 🙂 *Leider sind die Kommentare zum Schutz von Minderjährigen deaktiviert. ",
+      "publishedAt": "2021-12-20T14:30:25Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/aeQ-8778FqA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube--kjsF0sflQQ",
+      "youtubeId": "-kjsF0sflQQ",
+      "title": "Der Müll-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Was passiert mit unserem Müll? Wohin fährt die Müllabfuhr und was sortiert die Abfallsortieranalge? Das checkt Checker Tobi! *Leider sind die Kommentare z",
+      "publishedAt": "2021-12-06T14:30:12Z",
+      "durationSeconds": 1473,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/-kjsF0sflQQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-X9ZojV01BP0",
+      "youtubeId": "X9ZojV01BP0",
+      "title": "Der Benimm- und Regel-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Regeln! Beim Spielen, beim Sport und auch zu Hause. Wo kommen nur all die vielen Regeln her und warum brauchen wir sie? Tobi will es checken. *Leider sind",
+      "publishedAt": "2021-11-22T14:30:11Z",
+      "durationSeconds": 1448,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/X9ZojV01BP0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-BFeJ7Ts3wfc",
+      "youtubeId": "BFeJ7Ts3wfc",
+      "title": "Der Seilbahn-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge",
+        "Natur",
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Egal ob im Sommer oder im Winter, Skifahrer und Wanderer zieht es rauf auf die Gipfel der Berge. Am bequemsten geht das mit der Seilbahn. Aber wie funktio",
+      "publishedAt": "2021-10-18T13:30:12Z",
+      "durationSeconds": 1463,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/BFeJ7Ts3wfc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-pFs3Ei7E5mk",
+      "youtubeId": "pFs3Ei7E5mk",
+      "title": "Der Radio-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Medien"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt, wie eine Radiosendung entsteht. Im Sendestudio darf er sogar selbst mal ans Mikrofon - und zwar live! *Leider sind die Kommentare zum Schutz ",
+      "publishedAt": "2021-08-16T09:00:10Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/pFs3Ei7E5mk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-xvCpYaUe5Vk",
+      "youtubeId": "xvCpYaUe5Vk",
+      "title": "Der Wald-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Mit dem Kran hoch hinaus über die Baumwipfel kann Tobi den ganzen Wald überblicken: Faszinierend! Aber er checkt auch, dass viele Bäume in Gefahr sind. Wa",
+      "publishedAt": "2021-07-29T12:15:02Z",
+      "durationSeconds": 1453,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/xvCpYaUe5Vk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-H_D5hFhtbtc",
+      "youtubeId": "H_D5hFhtbtc",
+      "title": "Der Gefühle-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Angst, Trauer,",
+      "publishedAt": "2021-06-12T18:00:07Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/H_D5hFhtbtc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-EXBf3uuks2U",
+      "youtubeId": "EXBf3uuks2U",
+      "title": "Der Spezialfahrzeuge-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge",
+        "Gesellschaft",
+        "Technik"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Alle Maschinen",
+      "publishedAt": "2021-05-22T18:00:08Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/EXBf3uuks2U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-18EoeFi7EHQ",
+      "youtubeId": "18EoeFi7EHQ",
+      "title": "Der Garten- und Balkon-Check | Reportage für Kinder | Checker Julian | BR",
+      "checker": "Julian",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Julian findet ",
+      "publishedAt": "2021-05-15T18:00:00Z",
+      "durationSeconds": 1442,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/18EoeFi7EHQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-I_WdosFCf-4",
+      "youtubeId": "I_WdosFCf-4",
+      "title": "Der Sicherheits-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Entdeckt mit d",
+      "publishedAt": "2021-04-17T18:00:07Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/I_WdosFCf-4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-VS5FgwoeLFE",
+      "youtubeId": "VS5FgwoeLFE",
+      "title": "Der Impf-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Mit der Biolog",
+      "publishedAt": "2021-04-10T18:00:04Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/VS5FgwoeLFE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-aMEhM_XeHGo",
+      "youtubeId": "aMEhM_XeHGo",
+      "title": "Der Schmuck-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Schmuck faszin",
+      "publishedAt": "2021-03-22T16:00:01Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/aMEhM_XeHGo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-OfKJI6m0Kto",
+      "youtubeId": "OfKJI6m0Kto",
+      "title": "Der Kommunikations-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Tobi checkt, w",
+      "publishedAt": "2021-02-27T19:00:03Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/OfKJI6m0Kto/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-l3t8Yb8Cebo",
+      "youtubeId": "l3t8Yb8Cebo",
+      "title": "Der Raketen-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 👍 Raketen sin",
+      "publishedAt": "2021-02-06T19:00:10Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/l3t8Yb8Cebo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-CMPo2wbBbiQ",
+      "youtubeId": "CMPo2wbBbiQ",
+      "title": "Der Kälte-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Tobi checkt wa",
+      "publishedAt": "2021-01-13T09:00:12Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/CMPo2wbBbiQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-C6gN29W8-I0",
+      "youtubeId": "C6gN29W8-I0",
+      "title": "Der Beethoven-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Ludwig van Be",
+      "publishedAt": "2020-12-05T19:00:04Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/C6gN29W8-I0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-FqhAGsniZQQ",
+      "youtubeId": "FqhAGsniZQQ",
+      "title": "Der Schauspiel-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker!\" Schauspieler ",
+      "publishedAt": "2020-11-28T19:00:04Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/FqhAGsniZQQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-_qO1P-hju6k",
+      "youtubeId": "_qO1P-hju6k",
+      "title": "Der Mauerfall-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Tobi g",
+      "publishedAt": "2020-11-08T09:00:11Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/_qO1P-hju6k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-bA6tKk26TXY",
+      "youtubeId": "bA6tKk26TXY",
+      "title": "Der Islam-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Der Islam ist mit eineinhalb Milliarden Gläubigen die zweitgrößte Religion der Welt. In Deutschland leben 4,6 Millionen Muslime. Wie ihr Leben aussieht, c",
+      "publishedAt": "2020-10-18T08:00:05Z",
+      "durationSeconds": 1474,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/bA6tKk26TXY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Z2E85FesiiQ",
+      "youtubeId": "Z2E85FesiiQ",
+      "title": "Der Künstliche Intelligenz-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Künstliche Int",
+      "publishedAt": "2020-10-17T18:00:03Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Z2E85FesiiQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-PbaU3HHGISo",
+      "youtubeId": "PbaU3HHGISo",
+      "title": "Der Gefängnis-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Wie ist das Le",
+      "publishedAt": "2020-08-08T18:00:03Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/PbaU3HHGISo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-p8dHv0rvJpk",
+      "youtubeId": "p8dHv0rvJpk",
+      "title": "Der Heldinnen- und Helden-Check | Reportage für Kinder | Checker Julian | BR",
+      "checker": "Julian",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Wir alle kenne",
+      "publishedAt": "2020-08-01T18:00:07Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/p8dHv0rvJpk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-U0kppGGlNtA",
+      "youtubeId": "U0kppGGlNtA",
+      "title": "Der Wasserkraft-Check | Reportage für Kinder | Checker Julian | BR",
+      "checker": "Julian",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Wie entsteht W",
+      "publishedAt": "2020-07-25T18:00:13Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/U0kppGGlNtA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-HhPYkzxcPM0",
+      "youtubeId": "HhPYkzxcPM0",
+      "title": "Der Grünzeug-check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 🌿🕵️‍♂️ Wie clever sind Pflanzen ? Checker Can checkt, welche Tricks Pflanzen draufhaben – und warum sie für uns Menschen so wichtig sind! 🌱💚 Los geht's b",
+      "publishedAt": "2020-05-18T08:00:05Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/HhPYkzxcPM0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-9-cLnQKL21A",
+      "youtubeId": "9-cLnQKL21A",
+      "title": "Der Kletter-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. In den Bergen entdeckt Tobi, was Bouldern ist, wie man sich richtig sichert und welche Knoten man beherrschen muss. Er lernt, wie man sich kraftsparend an de",
+      "publishedAt": "2020-05-16T18:00:02Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/9-cLnQKL21A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-WM_CJaeNFX4",
+      "youtubeId": "WM_CJaeNFX4",
+      "title": "Der Viren-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Zusammen mit V",
+      "publishedAt": "2020-04-18T19:37:26Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/WM_CJaeNFX4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-lHJ6oPGfQ2Q",
+      "youtubeId": "lHJ6oPGfQ2Q",
+      "title": "Der Nachrichten-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Tobi s",
+      "publishedAt": "2020-03-07T19:00:06Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/lHJ6oPGfQ2Q/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-bJbemP0kT3Y",
+      "youtubeId": "bJbemP0kT3Y",
+      "title": "Der Schiffbau-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Fahrzeuge",
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 🚢 Wie wird ein riesiges Kreuzfahrtschiff gebaut? 🤯 Checker Julian will’s checken und besucht eine der größten Werften Deutschlands! 🏗️ Dort steht er mitte",
+      "publishedAt": "2020-02-08T19:00:03Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/bJbemP0kT3Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-jmE0iVL9HO8",
+      "youtubeId": "jmE0iVL9HO8",
+      "title": "Der Organe-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Berufe"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Julian checkt, wie unsere Organe zusammenarbeiten und wofür sie da sind! 👀✨ Im Münchner Klinikum wird er per MRT untersucht, im Augsburger Zoo erfährt er, w",
+      "publishedAt": "2020-02-01T19:00:04Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/jmE0iVL9HO8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-XTdtAGSnTgk",
+      "youtubeId": "XTdtAGSnTgk",
+      "title": "Der Bergwerk-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Berufe"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Checker Julian taucht ein in die spannende Welt des Bergbaus! ⛏️🌍 Erfahre, wie hart die Arbeit unter Tage war, warum Kohle so wichtig ist und wie wir den We",
+      "publishedAt": "2020-01-18T19:00:02Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/XTdtAGSnTgk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-TPuzHx274z4",
+      "youtubeId": "TPuzHx274z4",
+      "title": "Der Mond-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Julian ist fasziniert vom Mond und möchte alles über den 400.000 Kilometer entfernten Planeten wissen, zum Beispiel: warum leuchtet der Mond? Und warum is",
+      "publishedAt": "2019-09-26T16:00:05Z",
+      "durationSeconds": 1441,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/TPuzHx274z4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-o5uVLOwkI8M",
+      "youtubeId": "o5uVLOwkI8M",
+      "title": "Der Rummel-Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉Hier geht’s um Riesenräder, Geisterbahnen und Zuckerwatte. Can ist auf der Osterwiese in Bremen unterwegs - einem der größten Ostervolksfeste in ganz Deuts",
+      "publishedAt": "2019-09-17T15:00:10Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/o5uVLOwkI8M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-iBpwkn1DQ3A",
+      "youtubeId": "iBpwkn1DQ3A",
+      "title": "Der Salz-Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👋 Ohne Salz läuft nichts! Es ist nicht nur für Menschen und Tiere super wichtig, sondern auch für viele Dinge, die wir jeden Tag nutzen: wie Lego-Steine, Co",
+      "publishedAt": "2019-09-05T15:00:10Z",
+      "durationSeconds": 1443,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/iBpwkn1DQ3A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-IJ0pSGACiS8",
+      "youtubeId": "IJ0pSGACiS8",
+      "title": "Der Erste Hilfe-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Unfälle können überall passieren. 😲 Egal ob beim Sport, auf der Straße oder zu Hause – manchmal braucht jemand dringend Hilfe. Aber keine Panik! ✋💡 Wenn es",
+      "publishedAt": "2019-08-10T18:00:02Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/IJ0pSGACiS8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-WMIXvbbgeU0",
+      "youtubeId": "WMIXvbbgeU0",
+      "title": "Abenteuer quer durchs Land | Reportage für Kinder | Checker Tobi in der Türkei",
+      "checker": "Tobi",
+      "topics": [
+        "Abenteuer",
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Quer durch die Türkei, ein Land, das zweimal so groß ist wie Deutschland ist Tobi mit seinem Checker-Motorrad unterwegs und erlebt viele Abenteuer. * Die ",
+      "publishedAt": "2019-08-02T16:00:06Z",
+      "durationSeconds": 1453,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/WMIXvbbgeU0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-BnHVaKwb-YA",
+      "youtubeId": "BnHVaKwb-YA",
+      "title": "Wer passt auf im Hafen? | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Berufe"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Can begleitet die Hamburger Wasserschutzpolizei und erlebt schnelle Polizeiboote im Einsatz. Er prüft die Geschwindigkeit der Boote und löst spannende Che",
+      "publishedAt": "2019-07-03T16:00:02Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/BnHVaKwb-YA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-tp_sxGBzdK4",
+      "youtubeId": "tp_sxGBzdK4",
+      "title": "Der Stahl-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Berufe",
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Stahl ist überall um uns herum. Wir bauen Autos, Wolkenkratzer, Schienen und Züge aus dem Metall. Tobi checkt, wie Stahl verarbeitet wird. * Die Kommentar",
+      "publishedAt": "2019-06-08T08:00:12Z",
+      "durationSeconds": 1448,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/tp_sxGBzdK4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-VeBsRnJ2fjA",
+      "youtubeId": "VeBsRnJ2fjA",
+      "title": "Der Wind-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Essen",
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉Tobi checkt, wie Wind entsteht, wo er am meisten pfeift und wie Forscher den Wind messen. Und er versucht sich in einer Sportart bei der ohne Wind gar nich",
+      "publishedAt": "2019-05-29T16:00:09Z",
+      "durationSeconds": 1449,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/VeBsRnJ2fjA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Mz-Q3ajo3Fs",
+      "youtubeId": "Mz-Q3ajo3Fs",
+      "title": "Der Fluss-Check | Reportage für Kinder  | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Abenteuer",
+        "Fahrzeuge",
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi hat eine richtige Abenteuertour geplant! Zuerst mit dem Kanu, dann mit einem 110 Meter langen Binnenschiff. Immer den Main entlang. Von der Quelle im",
+      "publishedAt": "2019-05-02T14:00:03Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Mz-Q3ajo3Fs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-sxj0pD60skY",
+      "youtubeId": "sxj0pD60skY",
+      "title": "Der Sand-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Alltag"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Sand gibt es nicht nur am Strand oder in der Wüste. Es gibt ihn fast überall, auch wenn wir die winzigen Körner im Alltag nicht sehen. Sie stecken in Häus",
+      "publishedAt": "2019-04-20T08:00:05Z",
+      "durationSeconds": 1445,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/sxj0pD60skY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Ajrufd_FWjA",
+      "youtubeId": "Ajrufd_FWjA",
+      "title": "Der Gewürz-Check | Reportage für Kinder  | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Essen",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Die Steinzeitmenschen verfeinerten schon vor etwa 10.000 Jahren mit Gewürzen ihr Essen. Noch vor hunderten Jahren waren Gewürze ein teures Luxusgut. Und h",
+      "publishedAt": "2019-04-06T18:00:01Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Ajrufd_FWjA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-zvidmdQ5AS4",
+      "youtubeId": "zvidmdQ5AS4",
+      "title": "Der Mist-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 So ein Mist! Mit Gummistiefeln und zugehaltener Nase greift Tobi zur Mistgabel und checkt einen Komposthaufen! * Die Kommentare sind zum Schutz von Minder",
+      "publishedAt": "2019-03-30T09:00:09Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/zvidmdQ5AS4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-cgk4fQvM8tg",
+      "youtubeId": "cgk4fQvM8tg",
+      "title": "Der Filmtier-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Tobi liebt Filme! Und in vielen Filmen spielen auch Tiere eine große Rolle: Pferde und Mäuse, Hunde und Katzen, Wale, Delfine und Hamster... Höchste Zeit ",
+      "publishedAt": "2019-03-03T09:00:05Z",
+      "durationSeconds": 1436,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/cgk4fQvM8tg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-5H0LTzH_F0I",
+      "youtubeId": "5H0LTzH_F0I",
+      "title": "Der Pferdesport-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Sport",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Pferde sind ganz besondere Tiere: schön und stark, aber auch ziemlich groß und respekteinflößend. Julian traut sich heute zum ersten Mal in seinem Leben a",
+      "publishedAt": "2019-02-24T09:00:01Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/5H0LTzH_F0I/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-YwomQDRe5oI",
+      "youtubeId": "YwomQDRe5oI",
+      "title": "Der Laser-Check | Reportage für Kinde | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Bei Laser denkt Julian an Weltraumhelden, die sich im All wilde Gefechte mit Laser-Kanonen und Laser-Schwertern liefern. Wie Laser entstehen, für welchen ",
+      "publishedAt": "2019-02-02T19:00:04Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/YwomQDRe5oI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Hlxv65rnl0E",
+      "youtubeId": "Hlxv65rnl0E",
+      "title": "Der Piraten-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Wenn Tobi an Piraten denkt, denkt er an große Schiffe mit Totenkopf-Flaggen, riesige Goldschätze und finsteren Gestalten? Aber, war das Piratenleben wirkl",
+      "publishedAt": "2019-01-25T15:00:06Z",
+      "durationSeconds": 1473,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Hlxv65rnl0E/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-_W4_A7LfTp8",
+      "youtubeId": "_W4_A7LfTp8",
+      "title": "Der Checker-Kinofilm-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Film ab! In diesem Video wird hinter die Kulissen von Tobis Kinofilm \"Checker Tobi und das Geheimnis unseres Planeten\" geblickt. * Die Kommentare sind zum",
+      "publishedAt": "2019-01-24T15:00:03Z",
+      "durationSeconds": 1447,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/_W4_A7LfTp8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-4FQbukb3jGA",
+      "youtubeId": "4FQbukb3jGA",
+      "title": "Der THW-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Natur",
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Tobi checkt das Technische Hilfswerk, kurz THW, eine Organisation, die bei schweren Unfällen oder Naturkatastrophen im In- und Ausland hilft. * Die Kommen",
+      "publishedAt": "2019-01-10T14:30:01Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/4FQbukb3jGA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-mYaC9P7YXJA",
+      "youtubeId": "mYaC9P7YXJA",
+      "title": "Der Tatort-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Berufe"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Checker Tobi lernt die Arbeit der Kriminalpolizei, auch Kripo genannt, kennen und darf ihnen genau auf die Finger schauen. * Die Kommentare sind zum Schut",
+      "publishedAt": "2019-01-08T16:00:06Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/mYaC9P7YXJA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-JZ66jAKHWy8",
+      "youtubeId": "JZ66jAKHWy8",
+      "title": "Der Kampfsport-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Kampfsport kannte Tobi bisher nur aus Filmen. Dass es dabei nicht ums Prügeln sondern um Köperbeherrschung und die richtige Einstellung geht, lernt Tobi s",
+      "publishedAt": "2019-01-07T15:30:00Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/JZ66jAKHWy8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-bGSOfmyYDUs",
+      "youtubeId": "bGSOfmyYDUs",
+      "title": "Der Tauch-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Tauchen – nichts für schwache Nerven! Tobi träumt schon lange davon, mit Fischen zu schwimmen und die Tiefen des Ozeans zu erkunden, denn der hält bekannt",
+      "publishedAt": "2019-01-05T19:00:03Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/bGSOfmyYDUs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-yzBgz8Si2O8",
+      "youtubeId": "yzBgz8Si2O8",
+      "title": "Der Orchester-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Kultur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Tobi checkt die größten Band der Welt: das Orchester. Die Musiker spielen nicht mit E-Gitarren und Verstärkern, sondern mit Geigen, Blasinstrumenten oder ",
+      "publishedAt": "2018-11-14T15:00:05Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/yzBgz8Si2O8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Sht-dYI1tqc",
+      "youtubeId": "Sht-dYI1tqc",
+      "title": "Der Demokratie-Check | Reportage für Kinder  | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Demokratie ist griechisch und heißt: Herrschaft des Volkes. Das bedeutet, dass jeder die Möglichkeit hat, mitzubestimmen. Wir können und dürfen wählen, we",
+      "publishedAt": "2018-11-11T09:00:02Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Sht-dYI1tqc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-38uwXUX0Nag",
+      "youtubeId": "38uwXUX0Nag",
+      "title": "Der Gletscher-Check | Reportage für Kinder  | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Abenteuer"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Mit dem Hubschrauber startet Checker Tobi seine Expedition Gletschereis. Gletscher können mehrere Kilometer lang sein, und ihr Eis tausende Meter dick. Ab",
+      "publishedAt": "2018-11-09T14:30:01Z",
+      "durationSeconds": 1452,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/38uwXUX0Nag/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-pcRgWqSjJf0",
+      "youtubeId": "pcRgWqSjJf0",
+      "title": "Der Intelligenz-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt, welche verschiedenen Arten von Intelligenz es gibt. Manche Menschen können richtig schnell Kopfrechnen, andere sind talentierte Zeichner und ",
+      "publishedAt": "2018-11-07T15:00:11Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/pcRgWqSjJf0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-dpa7I-z946E",
+      "youtubeId": "dpa7I-z946E",
+      "title": "Der Liebe- und Knutschen-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Verliebt sein ist wie Schmetterlinge im Bauch haben. Plötzlich kann man an nichts anderes als an die Person des Herzens denken. Aber warum ist das so? Und",
+      "publishedAt": "2018-11-06T17:00:10Z",
+      "durationSeconds": 1481,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/dpa7I-z946E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-ISGTKdlZV8Y",
+      "youtubeId": "ISGTKdlZV8Y",
+      "title": "Der Recycling-Check  | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Umwelt"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉Recycling ist Englisch und heißt „Wiederverwertung“. Recycling ist super-wichtig, denn vieles, was im Müll steckt, kann man noch verwenden, und manchmal sc",
+      "publishedAt": "2018-10-28T09:00:00Z",
+      "durationSeconds": 1456,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/ISGTKdlZV8Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-i7cYePelQH4",
+      "youtubeId": "i7cYePelQH4",
+      "title": "Der Internet-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Medien"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Jeden Tag verschicken wir übers Internet Millionen von Bildern, Nachrichten oder Videos. Und das rund um die Welt! Wie und wann das Internet entstanden is",
+      "publishedAt": "2018-09-26T16:00:09Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/i7cYePelQH4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-DGhb_ZqUKT4",
+      "youtubeId": "DGhb_ZqUKT4",
+      "title": "Der Zug Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Fahrzeuge",
+        "Technik"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Wenige Handgriffe genügen, und ein ICE wird zum 300 km/h schnellen Geschoss! Im ICE-Werk prüfen Techniker jedes Detail des Hochgeschwindigkeitszuges – sog",
+      "publishedAt": "2018-09-20T16:00:01Z",
+      "durationSeconds": 1466,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/DGhb_ZqUKT4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-I1bA-uUvBao",
+      "youtubeId": "I1bA-uUvBao",
+      "title": "Der Judentum-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft",
+        "Reisen"
+      ],
+      "description": "Über 100.000 Juden leben in Deutschland. In Frankfurt besucht Tobi eine jüdische Familie und darf sogar mit in die Synagoge, das jüdische Gotteshaus, gehen. Der „Rabbiner\" leitet den Gottesdienst und ist für die Gemeindemitglieder da. Er zeigt Tobi die Thora: die Heilige Schrift ",
+      "publishedAt": "2018-09-15T18:00:01Z",
+      "durationSeconds": 1465,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/I1bA-uUvBao/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-zDy80c-HrJg",
+      "youtubeId": "zDy80c-HrJg",
+      "title": "Der ABC-Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Medien"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Ohne Buchstaben gäbe es keine Internetseiten, kein Facebook, keine SMS und auch keine Bücher oder Zeitungen. In seiner ABC-Reportage checkt Checker Can al",
+      "publishedAt": "2018-09-08T08:00:03Z",
+      "durationSeconds": 1445,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/zDy80c-HrJg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-0cvfxdvrz1k",
+      "youtubeId": "0cvfxdvrz1k",
+      "title": "Der Paket-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Rund zehn Millionen Pakete werden täglich in Deutschland verschickt. Die meisten kommen in wenigen Tagen an – selbst wenn der Sender im Süden und der Empf",
+      "publishedAt": "2018-08-29T11:29:27Z",
+      "durationSeconds": 1465,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/0cvfxdvrz1k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-X3MNJDM5Mu0",
+      "youtubeId": "X3MNJDM5Mu0",
+      "title": "Der Venedig-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Kanäle, Brücken und „O sole mio“-singende Gondolieri – ein Postkartenmotiv von Venedig. Aber in der Lagunenstadt gibt es noch viel mehr zu entdecken. Tobi",
+      "publishedAt": "2018-08-01T15:00:06Z",
+      "durationSeconds": 1472,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/X3MNJDM5Mu0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-NwMSUy9TwUY",
+      "youtubeId": "NwMSUy9TwUY",
+      "title": "Der Internats-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Alltag"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Im Internat gehen Kinder nicht nur zur Schule, sondern wohnen auch dort. Oft kennt man sie aus Büchern und Filmen: aus „Hanni und Nanni“ zum Beispiel, ode",
+      "publishedAt": "2018-07-29T08:00:01Z",
+      "durationSeconds": 1442,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/NwMSUy9TwUY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-GicQ4wIUrY0",
+      "youtubeId": "GicQ4wIUrY0",
+      "title": "Der Haut- und Pickel-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Die Haut ist mit einer Größe von ca. 2 Quadratmetern und einem Gewicht von bis zu 10 Kilo unser größtes Sinnesorgan. Und egal ob wir frieren oder schwitze",
+      "publishedAt": "2018-07-24T16:00:03Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/GicQ4wIUrY0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-avGwmqfIxw4",
+      "youtubeId": "avGwmqfIxw4",
+      "title": "Der Body-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Berufe",
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Unglaublich, was unser Körper kann. Wenn wir sprechen, arbeiten 70 verschiedene Muskeln. Unsere Augen können 100 Millionen Farben unterscheiden. Und wenn ",
+      "publishedAt": "2018-07-12T16:00:00Z",
+      "durationSeconds": 1446,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/avGwmqfIxw4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-NU80GDuQ_-4",
+      "youtubeId": "NU80GDuQ_-4",
+      "title": "Der Milch-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Wenn wir auf die Welt kommen gibt es als allererste Mahlzeit Milch. Das ist nicht nur bei uns Menschen so, sondern bei allen Säugetieren. Tobi checkt heut",
+      "publishedAt": "2018-06-29T15:00:05Z",
+      "durationSeconds": 1446,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/NU80GDuQ_-4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-wnRdslzAF1M",
+      "youtubeId": "wnRdslzAF1M",
+      "title": "Der Hafen-Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Geschichte"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Der Hamburger Hafen ist der zweitgrößte Seehafen Europas und hat eine lange und spannende Geschichte. Checker Can findet heraus, warum am Hamburger Hafen ",
+      "publishedAt": "2018-06-20T15:00:06Z",
+      "durationSeconds": 1448,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/wnRdslzAF1M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-mL6-vTbwyyA",
+      "youtubeId": "mL6-vTbwyyA",
+      "title": "Der Autobahn-Check | Reportage für Kinder| Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Fahrzeuge",
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 In Deutschland gibt es rund 120 Autobahnen, die sich kreuz und quer durchs ganze Land schlängeln. Tobi checkt wie eine Autobahn gebaut wird. * Die Komment",
+      "publishedAt": "2018-06-18T15:00:10Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/mL6-vTbwyyA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-DANJgT73XVU",
+      "youtubeId": "DANJgT73XVU",
+      "title": "Der Roboter-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Technik"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi findet es unfassbar, wie viele Roboter es mittlerweile gibt - und vor allem in wie vielen Formen! Viele von ihnen machen Jobs, die für uns Me",
+      "publishedAt": "2018-06-13T14:00:03Z",
+      "durationSeconds": 1459,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/DANJgT73XVU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-T6L549GdQ7A",
+      "youtubeId": "T6L549GdQ7A",
+      "title": "Der Schwimm-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Sport"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Schwimmen macht total Spaß. Brustschwimmen kann Tobi schon, aber mit dem Kraulen hapert es noch. Also Tobi, rein in die Badeklamotten! * Die Kommentare si",
+      "publishedAt": "2018-06-10T08:00:02Z",
+      "durationSeconds": 1446,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/T6L549GdQ7A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-uq8SfraJoNE",
+      "youtubeId": "uq8SfraJoNE",
+      "title": "Der Farben-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Stellt euch unseren Planeten mal ohne Farben vor: Der Himmel wäre nicht blau, das Fußballfeld nicht grün und Tobis Checker-Lampe nicht Orange. Alles wäre ",
+      "publishedAt": "2018-06-03T08:00:06Z",
+      "durationSeconds": 1461,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/uq8SfraJoNE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-h0v5ydET2L0",
+      "youtubeId": "h0v5ydET2L0",
+      "title": "Der Film-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Berufe",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 An einem einzigen Kinofilm arbeiten bei großen Hollywood Produktionen oft hunderte von Spezialisten! In den Bavaria Filmstudios in München checkt Tobi, wa",
+      "publishedAt": "2018-05-31T08:00:02Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/h0v5ydET2L0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-4i7-h-ySBNI",
+      "youtubeId": "4i7-h-ySBNI",
+      "title": "Der Klima-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Klima"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi erklärt, was Klima bedeutet - wie es weltweit zusammenhängt und warum alle sagen, dass es geschützt werden muss. 🎧 Checker Tobi gibt es jetzt auch z",
+      "publishedAt": "2018-05-28T15:00:01Z",
+      "durationSeconds": 1473,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/4i7-h-ySBNI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-mc6yLvUQr6o",
+      "youtubeId": "mc6yLvUQr6o",
+      "title": "Der Ungeziefer-Check | Information für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi findet Ungeziefer ganz schön ekelig. Igitt! Doch warum haben die Tierchen einen so schlechten Ruf und wieso ekeln wir uns überhaupt davor? * Die Komm",
+      "publishedAt": "2018-05-19T09:00:08Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/mc6yLvUQr6o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-CoN8FOm9Gpw",
+      "youtubeId": "CoN8FOm9Gpw",
+      "title": "Der Drachen-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Koerper",
+        "Reisen",
+        "Technik"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi schaut sich den größten Schreitroboter an, checkt, wie man Lenkdrachen steuert und hebt mit einem der besten Drachenflieger Deutschlands ab. * Die Ko",
+      "publishedAt": "2018-05-15T15:00:01Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/CoN8FOm9Gpw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-84-RSeUeGnY",
+      "youtubeId": "84-RSeUeGnY",
+      "title": "Der Schwert-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Geschichte"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Römische Soldaten benutzten sie, oder auch Ritter und Piraten. Schwerter wurden tausende Jahre lang zum Angriff und zur Verteidigung eingesetzt. Was ein S",
+      "publishedAt": "2018-05-06T09:30:01Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/84-RSeUeGnY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-UmyfhJAZXEA",
+      "youtubeId": "UmyfhJAZXEA",
+      "title": "Der Auto-Check | Reportagen für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Vier Räder, ein Motor und ein Lenkrad - fertig ist das Auto! Stopp! So einfach ist das natürlich nicht: Can checkt, was ein Auto braucht, damit es sicher ",
+      "publishedAt": "2018-05-04T13:00:02Z",
+      "durationSeconds": 1457,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/UmyfhJAZXEA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-85ASd0atIss",
+      "youtubeId": "85ASd0atIss",
+      "title": "Der Krankenhaus-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Gesundheit"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👉 Im Krankenhaus kümmern sich Ärzte und Pfleger um verletzte und schwerkranke Menschen, damit sie wieder gesund werden. Tobi will checken, wie man sich als ",
+      "publishedAt": "2018-04-29T08:00:02Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/85ASd0atIss/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Hp8S7-WjaCM",
+      "youtubeId": "Hp8S7-WjaCM",
+      "title": "Der Polizei-Check | Information für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Berufe",
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Julian zieht die zwanzig Kilo schwere Ausrüstung der Bereitschaftspolizei an und darf bei einer Einsatzübung mitmachen: Dann bricht ein Dieb ein Auto auf ",
+      "publishedAt": "2018-04-24T16:00:02Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Hp8S7-WjaCM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-yqjwEkGcF9Q",
+      "youtubeId": "yqjwEkGcF9Q",
+      "title": "Der Rollschuh-Check | Information für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Julian lernt Rollschuhfahren, baut seine eigenen Rollschuhe aus ein paar ganz normalen Turnschuhen und landet im Starlight Express-Musical. * Die ",
+      "publishedAt": "2018-04-17T14:00:09Z",
+      "durationSeconds": 1458,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/yqjwEkGcF9Q/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-HVnpRom1Y8g",
+      "youtubeId": "HVnpRom1Y8g",
+      "title": "Der Achterbahn-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Julian liebt Achterbahnen, aber mit einer wie der „GeForce“ im Holiday Park in Hasloch ist auch er noch nie gefahren. Julian rast durch die Kurven",
+      "publishedAt": "2018-04-06T12:30:00Z",
+      "durationSeconds": 1462,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/HVnpRom1Y8g/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-cBbPhG2if50",
+      "youtubeId": "cBbPhG2if50",
+      "title": "Der Eier-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Weltraum"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Was gehört zu jedem guten Frühstück und ist an Ostern gar nicht wegzudenken? Genau – Eier. Tobi checkt heute, aus was Eier eigentlich bestehen, welche Tie",
+      "publishedAt": "2018-03-25T12:00:05Z",
+      "durationSeconds": 1452,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/cBbPhG2if50/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-FRSD7zkgv5k",
+      "youtubeId": "FRSD7zkgv5k",
+      "title": "Auf den Spuren der Gladiatoren | Der Türkei-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Geschichte",
+        "Kultur",
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 In der Türkei lebten vor langer Zeit Griechen und Römer. Auch sie haben unsere Geschichte beeinflusst. Sie bauten prächtige Städte wie Ephesos. Im Theater",
+      "publishedAt": "2018-03-24T08:00:01Z",
+      "durationSeconds": 1453,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/FRSD7zkgv5k/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-s43TmrUUJDE",
+      "youtubeId": "s43TmrUUJDE",
+      "title": "Der Zahn-Check | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Gesundheit",
+        "Koerper"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Can hat einen Termin beim Zahnarzt. Der schaut sich seine Zähne ganz genau an. Danach checkt der Checker Zahnspangen und begibt sich im Frankfurter Zoo au",
+      "publishedAt": "2018-03-23T14:00:06Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/s43TmrUUJDE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-D78dt0XOfNY",
+      "youtubeId": "D78dt0XOfNY",
+      "title": "Der Frühlings-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Natur"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt woher eigentlich die Natur weiß, dass Frühling ist. Oft reichen wenige warme Tage und alles scheint regelrecht zu explodieren – wohin man scha",
+      "publishedAt": "2018-03-23T13:13:19Z",
+      "durationSeconds": 1468,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/D78dt0XOfNY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-2AS3HopqmbY",
+      "youtubeId": "2AS3HopqmbY",
+      "title": "Der Blinden-Check | Reportage für Kinder | Checker Tobi",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Allein in Deutschland leben über eine Millionen Kinder und Erwachsene, die gar nicht oder nur sehr, sehr wenig sehen können - sie sind blind, oder haben e",
+      "publishedAt": "2018-03-12T17:00:00Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/2AS3HopqmbY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-7zM4sbN0jYE",
+      "youtubeId": "7zM4sbN0jYE",
+      "title": "Der Tierarzt-Check | Reportage für Kinder | Checker Julian",
+      "checker": "Julian",
+      "topics": [
+        "Gesundheit",
+        "Tiere"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Wie wir Menschen müssen auch Tiere mal zum Arzt. Was da alles zu tun ist, erfährt Checker Julian bei Klein- und Großtierärzten. * Die Kommentare sind zum ",
+      "publishedAt": "2018-03-12T13:53:12Z",
+      "durationSeconds": 1447,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/7zM4sbN0jYE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-Hj-Qz2px06U",
+      "youtubeId": "Hj-Qz2px06U",
+      "title": "Der Dino-Check | Reportage für Kinder | Checker Tobi im Reich der Dinosaurier",
+      "checker": "Tobi",
+      "topics": [
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Auf der Suche nach dem König aller Dinosaurier, dem Tyrannosaurus Rex, muss Tobi mehrere Millionen Jahre zurück in die Vergangenheit reisen - ins Reich de",
+      "publishedAt": "2018-02-23T14:30:01Z",
+      "durationSeconds": 1471,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/Hj-Qz2px06U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-eyZqRcgGkiY",
+      "youtubeId": "eyZqRcgGkiY",
+      "title": "Der Mittelalter-Check | Reportage für Kinder | Checker Tobi als Ritter",
+      "checker": "Tobi",
+      "topics": [
+        "Geschichte",
+        "Reisen"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Für diese Reportage für Kinder macht Checker Tobi eine Zeitreise in die Epoche der Ritter und Gaukler, zu deren großen Turnieren und fast uneinnehmbaren B",
+      "publishedAt": "2017-07-27T14:07:23Z",
+      "durationSeconds": 1461,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/eyZqRcgGkiY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-I37Ntj-a7Ws",
+      "youtubeId": "I37Ntj-a7Ws",
+      "title": "Der Ozeanriesen-Check  | Reportage für Kinder | Checker Can",
+      "checker": "Can",
+      "topics": [
+        "Fahrzeuge"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Warum kippen richtig große und hohe Schiffe nicht um? Warum gehen sie nicht unter? Und was ist ein Containerschiff? Diese und andere Fragen beantwortet Check",
+      "publishedAt": "2017-07-27T13:40:52Z",
+      "durationSeconds": 1467,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/I37Ntj-a7Ws/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    }
+  ]
 }
