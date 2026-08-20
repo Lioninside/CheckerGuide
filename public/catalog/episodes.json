@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "youtube-2026-07-18T09:22:16.556Z",
-  "generatedAt": "2026-07-18T09:22:16.556Z",
+  "catalogVersion": "youtube-2026-08-20T04:56:03.156Z",
+  "generatedAt": "2026-08-20T04:56:03.156Z",
   "source": {
     "kind": "youtube-data-api",
     "channelHandle": "@CHECKERWELT",
@@ -36,7 +36,8 @@
     "Tobi"
   ],
   "dailyRecommendations": {
-    "2026-07-18": "youtube-Ajrufd_FWjA"
+    "2026-07-18": "youtube-Ajrufd_FWjA",
+    "2026-08-20": "youtube-0hLbrAcn9JQ"
   },
   "episodes": [
     {
@@ -1806,18 +1807,19 @@
       "needsReview": false
     },
     {
-      "id": "youtube-pFs3Ei7E5mk",
-      "youtubeId": "pFs3Ei7E5mk",
-      "title": "Der Radio-Check | Reportage für Kinder | Checker Tobi",
+      "id": "youtube-xvCpYaUe5Vk",
+      "youtubeId": "xvCpYaUe5Vk",
+      "title": "Der Wald-Check | Reportage für Kinder | Checker Tobi | BR",
       "checker": "Tobi",
       "topics": [
-        "Medien"
+        "Gesellschaft",
+        "Natur"
       ],
-      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Tobi checkt, wie eine Radiosendung entsteht. Im Sendestudio darf er sogar selbst mal ans Mikrofon - und zwar live! *Leider sind die Kommentare zum Schutz ",
-      "publishedAt": "2021-08-16T09:00:10Z",
-      "durationSeconds": 1469,
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Mit dem Kran h",
+      "publishedAt": "2021-07-29T12:15:02Z",
+      "durationSeconds": 1453,
       "thumbnail": {
-        "url": "https://i.ytimg.com/vi/pFs3Ei7E5mk/maxresdefault.jpg",
+        "url": "https://i.ytimg.com/vi/xvCpYaUe5Vk/maxresdefault.jpg",
         "width": 1280,
         "height": 720
       },
@@ -1825,18 +1827,38 @@
       "needsReview": false
     },
     {
-      "id": "youtube-xvCpYaUe5Vk",
-      "youtubeId": "xvCpYaUe5Vk",
-      "title": "Der Wald-Check | Reportage für Kinder | Checker Tobi",
-      "checker": "Tobi",
+      "id": "youtube-ZOI5HPv6rkI",
+      "youtubeId": "ZOI5HPv6rkI",
+      "title": "Der Japan-Check | Reportage für Kinder | Checker Julian | BR",
+      "checker": "Julian",
       "topics": [
-        "Natur"
+        "Gesellschaft",
+        "Kultur"
       ],
-      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Mit dem Kran hoch hinaus über die Baumwipfel kann Tobi den ganzen Wald überblicken: Faszinierend! Aber er checkt auch, dass viele Bäume in Gefahr sind. Wa",
-      "publishedAt": "2021-07-29T12:15:02Z",
-      "durationSeconds": 1453,
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Musiker, die a",
+      "publishedAt": "2021-07-10T18:00:11Z",
+      "durationSeconds": 1466,
       "thumbnail": {
-        "url": "https://i.ytimg.com/vi/xvCpYaUe5Vk/maxresdefault.jpg",
+        "url": "https://i.ytimg.com/vi/ZOI5HPv6rkI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-HD6s-xcnsYw",
+      "youtubeId": "HD6s-xcnsYw",
+      "title": "Der Tokio-Check | Reportage für Kinder | Checker Julian | BR",
+      "checker": "Julian",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Checker Julian",
+      "publishedAt": "2021-07-03T18:00:09Z",
+      "durationSeconds": 1464,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/HD6s-xcnsYw/maxresdefault.jpg",
         "width": 1280,
         "height": 720
       },
