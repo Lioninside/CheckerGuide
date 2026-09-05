@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "youtube-2026-08-20T04:56:03.156Z",
-  "generatedAt": "2026-08-20T04:56:03.156Z",
+  "catalogVersion": "youtube-2026-09-05T08:23:17.356Z",
+  "generatedAt": "2026-09-05T08:23:17.356Z",
   "source": {
     "kind": "youtube-data-api",
     "channelHandle": "@CHECKERWELT",
@@ -37,7 +37,8 @@
   ],
   "dailyRecommendations": {
     "2026-07-18": "youtube-Ajrufd_FWjA",
-    "2026-08-20": "youtube-0hLbrAcn9JQ"
+    "2026-08-20": "youtube-0hLbrAcn9JQ",
+    "2026-09-05": "youtube-HhPYkzxcPM0"
   },
   "episodes": [
     {
@@ -1802,6 +1803,45 @@
         "url": "https://i.ytimg.com/vi/BFeJ7Ts3wfc/sddefault.jpg",
         "width": 640,
         "height": 480
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-QCH4ncQmBtY",
+      "youtubeId": "QCH4ncQmBtY",
+      "title": "Der Evolutions-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Seit wann gibt",
+      "publishedAt": "2021-08-23T08:00:10Z",
+      "durationSeconds": 1456,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/QCH4ncQmBtY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-pFs3Ei7E5mk",
+      "youtubeId": "pFs3Ei7E5mk",
+      "title": "Der Radio-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft",
+        "Medien"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Tobi checkt, w",
+      "publishedAt": "2021-08-16T09:00:10Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/pFs3Ei7E5mk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
       },
       "available": true,
       "needsReview": false
