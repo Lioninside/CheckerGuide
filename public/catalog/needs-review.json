@@ -1693,24 +1693,6 @@
     "reviewReasons": []
   },
   {
-    "id": "youtube-ASiBvFYf5Ds",
-    "youtubeId": "ASiBvFYf5Ds",
-    "title": "Der Schwimmbad-Check | Reportage für Kinder | Checker Tobi",
-    "checker": "Tobi",
-    "topics": [],
-    "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi checkt, wie man am schnellsten die Wasserrutsche runterrutscht, heil vom 10-Meter-Turm springt, Wellen reitet und ganz nebenbei, warum Schwim",
-    "publishedAt": "2018-12-14T14:00:01Z",
-    "durationSeconds": 1441,
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ASiBvFYf5Ds/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "available": true,
-    "needsReview": true,
-    "reviewReasons": []
-  },
-  {
     "id": "youtube-CWWIEdHwl88",
     "youtubeId": "CWWIEdHwl88",
     "title": "Der Werbe-Check | Reportage für Kinder | Checker Tobi",
