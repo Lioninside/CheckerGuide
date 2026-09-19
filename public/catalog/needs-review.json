@@ -1021,24 +1021,6 @@
     "reviewReasons": []
   },
   {
-    "id": "youtube-x9X2zJ756t0",
-    "youtubeId": "x9X2zJ756t0",
-    "title": "Der Freundschafts-Check | Reportage für Kinder | Checker Julian",
-    "checker": "Julian",
-    "topics": [],
-    "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Julian und Emanuel sind seit dem Kindergarten beste Freunde. Sie teilen nicht nur eine Vorliebe für Jeanshemden, sondern auch für Fußball, Gitarre spielen",
-    "publishedAt": "2021-09-20T13:00:13Z",
-    "durationSeconds": 1470,
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/x9X2zJ756t0/sddefault.jpg",
-      "width": 640,
-      "height": 480
-    },
-    "available": true,
-    "needsReview": true,
-    "reviewReasons": []
-  },
-  {
     "id": "youtube-_7y_R8Kx4V8",
     "youtubeId": "_7y_R8Kx4V8",
     "title": "Der Schleim-Check | Reportage für Kinder | Chcker Julian | BR",
@@ -1685,24 +1667,6 @@
     "durationSeconds": 1451,
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/TV_14NziAMg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "available": true,
-    "needsReview": true,
-    "reviewReasons": []
-  },
-  {
-    "id": "youtube-ASiBvFYf5Ds",
-    "youtubeId": "ASiBvFYf5Ds",
-    "title": "Der Schwimmbad-Check | Reportage für Kinder | Checker Tobi",
-    "checker": "Tobi",
-    "topics": [],
-    "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Checker Tobi checkt, wie man am schnellsten die Wasserrutsche runterrutscht, heil vom 10-Meter-Turm springt, Wellen reitet und ganz nebenbei, warum Schwim",
-    "publishedAt": "2018-12-14T14:00:01Z",
-    "durationSeconds": 1441,
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ASiBvFYf5Ds/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
