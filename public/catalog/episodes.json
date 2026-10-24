@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "youtube-2026-08-20T04:56:03.156Z",
-  "generatedAt": "2026-08-20T04:56:03.156Z",
+  "catalogVersion": "youtube-2026-10-24T08:54:54.099Z",
+  "generatedAt": "2026-10-24T08:54:54.099Z",
   "source": {
     "kind": "youtube-data-api",
     "channelHandle": "@CHECKERWELT",
@@ -37,9 +37,68 @@
   ],
   "dailyRecommendations": {
     "2026-07-18": "youtube-Ajrufd_FWjA",
-    "2026-08-20": "youtube-0hLbrAcn9JQ"
+    "2026-08-20": "youtube-0hLbrAcn9JQ",
+    "2026-10-24": "youtube-CMPo2wbBbiQ"
   },
   "episodes": [
+    {
+      "id": "youtube-KNd_96l1y5M",
+      "youtubeId": "KNd_96l1y5M",
+      "title": "Der Ballon-Check | Reportage für Kinder | Checkerin Marina | BR",
+      "checker": "Marina",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! 🎈 Marina hebt",
+      "publishedAt": "2026-10-19T13:00:28Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/KNd_96l1y5M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-y-7fXhOLxFI",
+      "youtubeId": "y-7fXhOLxFI",
+      "title": "Der Klimakrisen-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft",
+        "Klima"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Der #Klimawand",
+      "publishedAt": "2026-09-30T13:00:06Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/y-7fXhOLxFI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-cIW08XO2pcI",
+      "youtubeId": "cIW08XO2pcI",
+      "title": "Der Kinder-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Der Kinder-Che",
+      "publishedAt": "2026-09-29T09:15:30Z",
+      "durationSeconds": 1470,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/cIW08XO2pcI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
     {
       "id": "youtube-plpsNidso5I",
       "youtubeId": "plpsNidso5I",
@@ -1786,22 +1845,40 @@
       "needsReview": false
     },
     {
-      "id": "youtube-BFeJ7Ts3wfc",
-      "youtubeId": "BFeJ7Ts3wfc",
-      "title": "Der Seilbahn-Check | Reportage für Kinder | Checker Tobi",
+      "id": "youtube-QCH4ncQmBtY",
+      "youtubeId": "QCH4ncQmBtY",
+      "title": "Der Evolutions-Check | Reportage für Kinder | Checker Tobi | BR",
       "checker": "Tobi",
       "topics": [
-        "Fahrzeuge",
-        "Natur",
-        "Sport"
+        "Gesellschaft"
       ],
-      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. 👍 Egal ob im Sommer oder im Winter, Skifahrer und Wanderer zieht es rauf auf die Gipfel der Berge. Am bequemsten geht das mit der Seilbahn. Aber wie funktio",
-      "publishedAt": "2021-10-18T13:30:12Z",
-      "durationSeconds": 1463,
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Seit wann gibt",
+      "publishedAt": "2021-08-23T08:00:10Z",
+      "durationSeconds": 1456,
       "thumbnail": {
-        "url": "https://i.ytimg.com/vi/BFeJ7Ts3wfc/sddefault.jpg",
-        "width": 640,
-        "height": 480
+        "url": "https://i.ytimg.com/vi/QCH4ncQmBtY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "available": true,
+      "needsReview": false
+    },
+    {
+      "id": "youtube-pFs3Ei7E5mk",
+      "youtubeId": "pFs3Ei7E5mk",
+      "title": "Der Radio-Check | Reportage für Kinder | Checker Tobi | BR",
+      "checker": "Tobi",
+      "topics": [
+        "Gesellschaft",
+        "Medien"
+      ],
+      "description": "Schon gecheckt? Noch mehr spannende Videos findest du in der Checker Welt der ARD-Mediathek: https://1.ard.de/checkerwelt. Das Kinderprofil in der ARD Mediathek wird zur Safe Zone! 🎉 Einfach, sicher und voll mit kindgerechten Inhalten – perfekt für kleine Checker! Tobi checkt, w",
+      "publishedAt": "2021-08-16T09:00:10Z",
+      "durationSeconds": 1469,
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/pFs3Ei7E5mk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
       },
       "available": true,
       "needsReview": false
